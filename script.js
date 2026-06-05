@@ -208,3 +208,35 @@ document.querySelectorAll('a[href^="#"]').forEach(a => {
     if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
   });
 });
+
+// SCROLL PROGRESS BAR
+const scrollBar = document.getElementById('scrollBar');
+window.addEventListener('scroll', () => {
+  const scrolled = window.scrollY;
+  const max = document.documentElement.scrollHeight - window.innerHeight;
+  scrollBar.style.width = (scrolled / max * 100) + '%';
+}, { passive: true });
+
+// BACK TO TOP
+const backToTop = document.getElementById('backToTop');
+window.addEventListener('scroll', () => {
+  backToTop.classList.toggle('visible', window.scrollY > 600);
+}, { passive: true });
+backToTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+// MAGNETIC BUTTONS
+document.querySelectorAll('.magnetic').forEach(el => {
+  el.addEventListener('mousemove', e => {
+    const r = el.getBoundingClientRect();
+    const x = (e.clientX - r.left - r.width / 2) * 0.18;
+    const y = (e.clientY - r.top - r.height / 2) * 0.18;
+    el.style.transform = `translate(${x}px, ${y}px) translateY(-3px)`;
+  });
+  el.addEventListener('mouseleave', () => { el.style.transform = ''; });
+});
+
+// CURSOR HOVER — include new elements
+document.querySelectorAll('.service-card, .testimonial-card, .back-to-top').forEach(el => {
+  el.addEventListener('mouseenter', () => { cursor.classList.add('hover'); follower.classList.add('hover'); });
+  el.addEventListener('mouseleave', () => { cursor.classList.remove('hover'); follower.classList.remove('hover'); });
+});
