@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Syne:wght@700;800&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="scroll-bar" id="scrollBar"></div>
@@ -19,6 +19,7 @@
         <div class="loader-content">
             <div class="loader-logo">BD</div>
             <div class="loader-bar"><div class="loader-progress"></div></div>
+            <div class="loader-text">Chargement en cours…</div>
         </div>
     </div>
 
@@ -39,36 +40,43 @@
         </div>
     </nav>
 
+    <!-- ═══════════════ HERO ═══════════════ -->
     <section class="hero" id="hero">
         <canvas class="hero-canvas" id="heroCanvas"></canvas>
-        <div class="hero-orbs">
-            <div class="orb orb-1"></div>
-            <div class="orb orb-2"></div>
-            <div class="orb orb-3"></div>
+        <div class="aurora">
+            <div class="aurora-orb a1"></div>
+            <div class="aurora-orb a2"></div>
+            <div class="aurora-orb a3"></div>
+            <div class="aurora-orb a4"></div>
         </div>
+        <div class="hero-grid-bg"></div>
+
         <div class="hero-content">
-            <div class="hero-badge">
+            <div class="hero-badge" id="heroBadge">
                 <span class="badge-dot"></span>
                 Disponible pour de nouveaux projets
             </div>
             <h1 class="hero-title">
-                <span class="title-line">Benjamin</span>
-                <span class="title-line gradient-text">Dalmasso</span>
+                <span class="title-line tl-1">Benjamin</span>
+                <span class="title-line tl-2 gradient-text">Dalmasso</span>
             </h1>
             <div class="hero-role">
-                <span>Je suis&nbsp;</span>
+                <span class="role-prefix">Je suis&nbsp;</span>
                 <span class="typewriter" id="typewriter"></span>
                 <span class="typewriter-cursor">|</span>
             </div>
-            <p class="hero-description">Développeur passionné créant des expériences digitales<br>élégantes, performantes et mémorables.</p>
-            <div class="hero-cta">
+            <p class="hero-description" id="heroDesc">
+                Développeur passionné créant des expériences digitales<br>
+                élégantes, performantes et mémorables.
+            </p>
+            <div class="hero-cta" id="heroCta">
                 <a href="#projects" class="btn btn-primary magnetic">
                     Voir mes projets
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14m-7-7 7 7-7 7"/></svg>
                 </a>
                 <a href="#contact" class="btn btn-secondary">Me contacter</a>
             </div>
-            <div class="hero-stats">
+            <div class="hero-stats" id="heroStats">
                 <div class="stat">
                     <span class="stat-number" data-count="5">0+</span>
                     <span class="stat-label">Ans d'expérience</span>
@@ -85,24 +93,27 @@
                 </div>
             </div>
         </div>
+
         <div class="hero-scroll">
             <div class="scroll-indicator"><div class="scroll-dot"></div></div>
             <span>Scroll</span>
         </div>
     </section>
 
+    <!-- Marquee -->
     <div class="marquee-strip">
         <div class="marquee-track">
-            <span>React</span><span class="dot">·</span><span>Next.js</span><span class="dot">·</span><span>Node.js</span><span class="dot">·</span><span>TypeScript</span><span class="dot">·</span><span>Python</span><span class="dot">·</span><span>Docker</span><span class="dot">·</span><span>AWS</span><span class="dot">·</span><span>PostgreSQL</span><span class="dot">·</span><span>GraphQL</span><span class="dot">·</span><span>Kubernetes</span><span class="dot">·</span>
-            <span>React</span><span class="dot">·</span><span>Next.js</span><span class="dot">·</span><span>Node.js</span><span class="dot">·</span><span>TypeScript</span><span class="dot">·</span><span>Python</span><span class="dot">·</span><span>Docker</span><span class="dot">·</span><span>AWS</span><span class="dot">·</span><span>PostgreSQL</span><span class="dot">·</span><span>GraphQL</span><span class="dot">·</span><span>Kubernetes</span><span class="dot">·</span>
+            <span>React</span><span class="dot">·</span><span>Next.js</span><span class="dot">·</span><span>Node.js</span><span class="dot">·</span><span>TypeScript</span><span class="dot">·</span><span>Python</span><span class="dot">·</span><span>Docker</span><span class="dot">·</span><span>AWS</span><span class="dot">·</span><span>PostgreSQL</span><span class="dot">·</span><span>GraphQL</span><span class="dot">·</span><span>Figma</span><span class="dot">·</span>
+            <span>React</span><span class="dot">·</span><span>Next.js</span><span class="dot">·</span><span>Node.js</span><span class="dot">·</span><span>TypeScript</span><span class="dot">·</span><span>Python</span><span class="dot">·</span><span>Docker</span><span class="dot">·</span><span>AWS</span><span class="dot">·</span><span>PostgreSQL</span><span class="dot">·</span><span>GraphQL</span><span class="dot">·</span><span>Figma</span><span class="dot">·</span>
         </div>
     </div>
 
+    <!-- ═══════════════ ABOUT ═══════════════ -->
     <section class="section about" id="about">
         <div class="container">
-            <div class="section-label">01 — À propos</div>
+            <div class="section-label gs-label">01 — À propos</div>
             <div class="about-grid">
-                <div class="about-visual">
+                <div class="about-visual gs-left">
                     <div class="about-image-wrapper">
                         <div class="about-image">
                             <div class="image-placeholder">BD</div>
@@ -117,18 +128,16 @@
                         </div>
                     </div>
                 </div>
-                <div class="about-content reveal">
-                    <h2 class="section-title">Construire le futur,<br><span class="gradient-text">une ligne à la fois.</span></h2>
-                    <p class="about-text">Passionné par la création d'applications web modernes, je transforme des idées complexes en interfaces intuitives et performantes. Mon approche combine expertise technique et sensibilité design.</p>
-                    <p class="about-text">Spécialisé en développement full-stack, je maîtrise l'ensemble de la chaîne — de l'architecture backend aux animations front-end, en passant par l'optimisation des performances.</p>
-                    <div class="about-tags">
-                        <span class="tag">Problem Solver</span>
-                        <span class="tag">Clean Code</span>
-                        <span class="tag">UX Focused</span>
-                        <span class="tag">Agile</span>
+                <div class="about-content gs-right">
+                    <h2 class="section-title gs-title">Construire le futur,<br><span class="gradient-text">une ligne à la fois.</span></h2>
+                    <p class="about-text gs-fade">Passionné par la création d'applications web modernes, je transforme des idées complexes en interfaces intuitives et performantes. Mon approche combine expertise technique et sensibilité design.</p>
+                    <p class="about-text gs-fade">Spécialisé en développement full-stack, je maîtrise l'ensemble de la chaîne — de l'architecture backend aux animations front-end, en passant par l'optimisation des performances.</p>
+                    <div class="about-tags gs-fade">
+                        <span class="tag">Problem Solver</span><span class="tag">Clean Code</span>
+                        <span class="tag">UX Focused</span><span class="tag">Agile</span>
                         <span class="tag">Open Source</span>
                     </div>
-                    <div class="about-links">
+                    <div class="about-links gs-fade">
                         <a href="#" class="about-link">
                             <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
                             GitHub
@@ -143,13 +152,14 @@
         </div>
     </section>
 
+    <!-- ═══════════════ SERVICES ═══════════════ -->
     <section class="section services" id="services">
         <div class="container">
-            <div class="section-label">02 — Services</div>
-            <h2 class="section-title text-center">Ce que je <span class="gradient-text">propose</span></h2>
-            <p class="section-subtitle">Des solutions sur mesure pour transformer vos idées en réalités digitales performantes</p>
+            <div class="section-label gs-label">02 — Services</div>
+            <h2 class="section-title text-center gs-title">Ce que je <span class="gradient-text">propose</span></h2>
+            <p class="section-subtitle gs-fade">Des solutions sur mesure pour transformer vos idées en réalités digitales performantes</p>
             <div class="services-grid">
-                <div class="service-card reveal">
+                <div class="service-card gs-card">
                     <div class="service-icon">
                         <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
                     </div>
@@ -157,7 +167,7 @@
                     <p class="service-description">Applications web modernes, SPA et SSR avec React et Next.js. APIs RESTful et GraphQL robustes, intégrations complexes.</p>
                     <div class="service-tags"><span>React</span><span>Next.js</span><span>Node.js</span></div>
                 </div>
-                <div class="service-card reveal">
+                <div class="service-card gs-card">
                     <div class="service-icon">
                         <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M4.22 4.22l2.12 2.12M17.66 17.66l2.12 2.12M2 12h3M19 12h3M4.22 19.78l2.12-2.12M17.66 6.34l2.12-2.12"/></svg>
                     </div>
@@ -165,7 +175,7 @@
                     <p class="service-description">Interfaces intuitives centrées utilisateur, design systems cohérents, animations fluides et micro-interactions soignées.</p>
                     <div class="service-tags"><span>Figma</span><span>Design System</span><span>Animation</span></div>
                 </div>
-                <div class="service-card reveal">
+                <div class="service-card gs-card">
                     <div class="service-icon">
                         <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
                     </div>
@@ -173,7 +183,7 @@
                     <p class="service-description">Déploiement AWS/GCP, conteneurisation Docker, pipelines CI/CD automatisés et infrastructure as code scalable.</p>
                     <div class="service-tags"><span>AWS</span><span>Docker</span><span>CI/CD</span></div>
                 </div>
-                <div class="service-card reveal">
+                <div class="service-card gs-card">
                     <div class="service-icon">
                         <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
                     </div>
@@ -185,13 +195,14 @@
         </div>
     </section>
 
+    <!-- ═══════════════ SKILLS ═══════════════ -->
     <section class="section skills" id="skills">
         <div class="container">
-            <div class="section-label">03 — Compétences</div>
-            <h2 class="section-title text-center">Mon <span class="gradient-text">stack technologique</span></h2>
-            <p class="section-subtitle">Technologies que j'utilise quotidiennement pour créer des applications remarquables</p>
+            <div class="section-label gs-label">03 — Compétences</div>
+            <h2 class="section-title text-center gs-title">Mon <span class="gradient-text">stack technologique</span></h2>
+            <p class="section-subtitle gs-fade">Technologies que j'utilise quotidiennement pour créer des applications remarquables</p>
             <div class="skills-grid">
-                <div class="skill-category reveal">
+                <div class="skill-category gs-card">
                     <h3 class="skill-category-title">Frontend</h3>
                     <div class="skill-items">
                         <div class="skill-item"><div class="skill-info"><span class="skill-name">React / Next.js</span><span class="skill-pct">95%</span></div><div class="skill-bar"><div class="skill-fill" data-width="95"></div></div></div>
@@ -200,7 +211,7 @@
                         <div class="skill-item"><div class="skill-info"><span class="skill-name">Vue.js</span><span class="skill-pct">80%</span></div><div class="skill-bar"><div class="skill-fill" data-width="80"></div></div></div>
                     </div>
                 </div>
-                <div class="skill-category reveal">
+                <div class="skill-category gs-card">
                     <h3 class="skill-category-title">Backend</h3>
                     <div class="skill-items">
                         <div class="skill-item"><div class="skill-info"><span class="skill-name">Node.js / Express</span><span class="skill-pct">88%</span></div><div class="skill-bar"><div class="skill-fill" data-width="88"></div></div></div>
@@ -209,7 +220,7 @@
                         <div class="skill-item"><div class="skill-info"><span class="skill-name">GraphQL</span><span class="skill-pct">78%</span></div><div class="skill-bar"><div class="skill-fill" data-width="78"></div></div></div>
                     </div>
                 </div>
-                <div class="skill-category reveal">
+                <div class="skill-category gs-card">
                     <h3 class="skill-category-title">DevOps & Tools</h3>
                     <div class="skill-items">
                         <div class="skill-item"><div class="skill-info"><span class="skill-name">Docker / Kubernetes</span><span class="skill-pct">80%</span></div><div class="skill-bar"><div class="skill-fill" data-width="80"></div></div></div>
@@ -219,7 +230,7 @@
                     </div>
                 </div>
             </div>
-            <div class="tech-icons reveal">
+            <div class="tech-icons gs-fade">
                 <div class="tech-icon"><span>React</span></div>
                 <div class="tech-icon"><span>Node</span></div>
                 <div class="tech-icon"><span>Python</span></div>
@@ -232,18 +243,19 @@
         </div>
     </section>
 
+    <!-- ═══════════════ PROJECTS ═══════════════ -->
     <section class="section projects" id="projects">
         <div class="container">
-            <div class="section-label">04 — Projets</div>
-            <h2 class="section-title">Mes <span class="gradient-text">réalisations</span></h2>
-            <p class="section-subtitle">Une sélection de projets qui illustrent mon expertise et ma créativité</p>
+            <div class="section-label gs-label">04 — Projets</div>
+            <h2 class="section-title gs-title">Mes <span class="gradient-text">réalisations</span></h2>
+            <p class="section-subtitle gs-fade">Une sélection de projets qui illustrent mon expertise et ma créativité</p>
             <div class="projects-grid">
-                <div class="project-card reveal" data-tilt>
+                <div class="project-card gs-card" data-tilt>
                     <div class="project-image pi-indigo">
-                        <svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.25)" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="m8 21 8 0M12 17v4"/></svg>
+                        <svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="m8 21 8 0M12 17v4"/></svg>
                         <div class="project-overlay">
                             <a href="#" class="project-link">Live <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
-                            <a href="#" class="project-link">Code <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg></a>
+                            <a href="#" class="project-link">Code</a>
                         </div>
                     </div>
                     <div class="project-info">
@@ -252,14 +264,13 @@
                         <p class="project-description">Plateforme SaaS complète avec gestion multi-tenant, authentification avancée et tableau de bord analytique en temps réel.</p>
                     </div>
                 </div>
-
-                <div class="project-card reveal featured" data-tilt>
+                <div class="project-card gs-card featured" data-tilt>
                     <div class="project-featured-badge">Featured</div>
                     <div class="project-image pi-cyan">
-                        <svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.25)" stroke-width="1.5"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+                        <svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="1.5"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/></svg>
                         <div class="project-overlay">
-                            <a href="#" class="project-link">Live <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
-                            <a href="#" class="project-link">Code <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg></a>
+                            <a href="#" class="project-link">Live</a>
+                            <a href="#" class="project-link">Code</a>
                         </div>
                     </div>
                     <div class="project-info">
@@ -268,13 +279,12 @@
                         <p class="project-description">Application d'IA générative pour la création de contenu personnalisé, avec intégration LLM et interface conversationnelle avancée.</p>
                     </div>
                 </div>
-
-                <div class="project-card reveal" data-tilt>
+                <div class="project-card gs-card" data-tilt>
                     <div class="project-image pi-amber">
-                        <svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.25)" stroke-width="1.5"><rect x="2" y="2" width="9" height="9"/><rect x="13" y="2" width="9" height="9"/><rect x="2" y="13" width="9" height="9"/><rect x="13" y="13" width="9" height="9"/></svg>
+                        <svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="1.5"><rect x="2" y="2" width="9" height="9"/><rect x="13" y="2" width="9" height="9"/><rect x="2" y="13" width="9" height="9"/><rect x="13" y="13" width="9" height="9"/></svg>
                         <div class="project-overlay">
-                            <a href="#" class="project-link">Live <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
-                            <a href="#" class="project-link">Code <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg></a>
+                            <a href="#" class="project-link">Live</a>
+                            <a href="#" class="project-link">Code</a>
                         </div>
                     </div>
                     <div class="project-info">
@@ -283,13 +293,12 @@
                         <p class="project-description">Dashboard collaboratif en temps réel avec visualisation de données avancée et synchronisation multi-utilisateurs.</p>
                     </div>
                 </div>
-
-                <div class="project-card reveal" data-tilt>
+                <div class="project-card gs-card" data-tilt>
                     <div class="project-image pi-pink">
-                        <svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.25)" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                        <svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
                         <div class="project-overlay">
-                            <a href="#" class="project-link">Live <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
-                            <a href="#" class="project-link">Code <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg></a>
+                            <a href="#" class="project-link">Live</a>
+                            <a href="#" class="project-link">Code</a>
                         </div>
                     </div>
                     <div class="project-info">
@@ -302,12 +311,13 @@
         </div>
     </section>
 
+    <!-- ═══════════════ EXPERIENCE ═══════════════ -->
     <section class="section experience" id="experience">
         <div class="container">
-            <div class="section-label">05 — Expérience</div>
-            <h2 class="section-title">Mon <span class="gradient-text">parcours</span></h2>
+            <div class="section-label gs-label">05 — Expérience</div>
+            <h2 class="section-title gs-title">Mon <span class="gradient-text">parcours</span></h2>
             <div class="timeline">
-                <div class="timeline-item reveal">
+                <div class="timeline-item gs-timeline">
                     <div class="timeline-date">2022 — Présent</div>
                     <div class="timeline-content">
                         <div class="timeline-header">
@@ -318,7 +328,7 @@
                         <div class="timeline-tags"><span class="timeline-tag">React</span><span class="timeline-tag">Node.js</span><span class="timeline-tag">AWS</span><span class="timeline-tag">Docker</span></div>
                     </div>
                 </div>
-                <div class="timeline-item reveal">
+                <div class="timeline-item gs-timeline">
                     <div class="timeline-date">2020 — 2022</div>
                     <div class="timeline-content">
                         <div class="timeline-header">
@@ -329,7 +339,7 @@
                         <div class="timeline-tags"><span class="timeline-tag">Vue.js</span><span class="timeline-tag">TypeScript</span><span class="timeline-tag">GraphQL</span></div>
                     </div>
                 </div>
-                <div class="timeline-item reveal">
+                <div class="timeline-item gs-timeline">
                     <div class="timeline-date">2019 — 2020</div>
                     <div class="timeline-content">
                         <div class="timeline-header">
@@ -344,45 +354,37 @@
         </div>
     </section>
 
+    <!-- ═══════════════ TESTIMONIALS ═══════════════ -->
     <section class="section testimonials" id="testimonials">
         <div class="container">
-            <div class="section-label">06 — Témoignages</div>
-            <h2 class="section-title text-center">Ce qu'ils <span class="gradient-text">disent</span></h2>
-            <p class="section-subtitle">L'avis de ceux avec qui j'ai eu le plaisir de collaborer</p>
+            <div class="section-label gs-label">06 — Témoignages</div>
+            <h2 class="section-title text-center gs-title">Ce qu'ils <span class="gradient-text">disent</span></h2>
+            <p class="section-subtitle gs-fade">L'avis de ceux avec qui j'ai eu le plaisir de collaborer</p>
             <div class="testimonials-grid">
-                <div class="testimonial-card reveal">
+                <div class="testimonial-card gs-card">
                     <div class="testimonial-quote">"</div>
                     <p class="testimonial-text">Benjamin a transformé notre idée en un produit exceptionnel. Son attention aux détails et sa maîtrise technique sont remarquables. Le résultat a dépassé toutes nos attentes.</p>
                     <div class="testimonial-author">
                         <div class="testimonial-avatar">SL</div>
-                        <div>
-                            <div class="testimonial-name">Sophie Laurent</div>
-                            <div class="testimonial-role">CEO, TechCorp Paris</div>
-                        </div>
+                        <div><div class="testimonial-name">Sophie Laurent</div><div class="testimonial-role">CEO, TechCorp Paris</div></div>
                         <div class="testimonial-stars">★★★★★</div>
                     </div>
                 </div>
-                <div class="testimonial-card reveal">
+                <div class="testimonial-card gs-card">
                     <div class="testimonial-quote">"</div>
                     <p class="testimonial-text">Un développeur rare qui allie expertise technique et vision produit. Il a su anticiper nos besoins et proposer des solutions innovantes qui ont amélioré notre UX de façon spectaculaire.</p>
                     <div class="testimonial-author">
                         <div class="testimonial-avatar">MR</div>
-                        <div>
-                            <div class="testimonial-name">Marc Renault</div>
-                            <div class="testimonial-role">CTO, Digital Agency Lyon</div>
-                        </div>
+                        <div><div class="testimonial-name">Marc Renault</div><div class="testimonial-role">CTO, Digital Agency Lyon</div></div>
                         <div class="testimonial-stars">★★★★★</div>
                     </div>
                 </div>
-                <div class="testimonial-card reveal">
+                <div class="testimonial-card gs-card">
                     <div class="testimonial-quote">"</div>
                     <p class="testimonial-text">Travailler avec Benjamin, c'est avoir la garantie d'un code propre et performant. Son approche rigoureuse et sa réactivité en font un partenaire technique idéal pour tout projet ambitieux.</p>
                     <div class="testimonial-author">
                         <div class="testimonial-avatar">AB</div>
-                        <div>
-                            <div class="testimonial-name">Alice Bouchard</div>
-                            <div class="testimonial-role">Product Manager, StartupHub</div>
-                        </div>
+                        <div><div class="testimonial-name">Alice Bouchard</div><div class="testimonial-role">Product Manager, StartupHub</div></div>
                         <div class="testimonial-stars">★★★★★</div>
                     </div>
                 </div>
@@ -390,14 +392,15 @@
         </div>
     </section>
 
+    <!-- ═══════════════ CONTACT ═══════════════ -->
     <section class="section contact" id="contact">
         <div class="container">
-            <div class="section-label">07 — Contact</div>
+            <div class="section-label gs-label">07 — Contact</div>
             <div class="contact-grid">
-                <div class="contact-info reveal">
-                    <h2 class="section-title">Travaillons<br><span class="gradient-text">ensemble.</span></h2>
-                    <p class="contact-text">Vous avez un projet en tête ? Je suis toujours ouvert à de nouvelles collaborations et opportunités intéressantes.</p>
-                    <div class="contact-details">
+                <div class="contact-info gs-left">
+                    <h2 class="section-title gs-title">Travaillons<br><span class="gradient-text">ensemble.</span></h2>
+                    <p class="contact-text gs-fade">Vous avez un projet en tête ? Je suis toujours ouvert à de nouvelles collaborations et opportunités intéressantes.</p>
+                    <div class="contact-details gs-fade">
                         <div class="contact-detail">
                             <div class="contact-detail-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
                             <div><div class="contact-detail-label">Email</div><div class="contact-detail-value">benjamin@dalmasso.dev</div></div>
@@ -408,7 +411,7 @@
                         </div>
                     </div>
                 </div>
-                <form class="contact-form reveal" id="contactForm">
+                <form class="contact-form gs-right" id="contactForm">
                     <div class="form-group">
                         <input type="text" class="form-input" id="formName" placeholder=" " required>
                         <label class="form-label" for="formName">Votre nom</label>
@@ -456,6 +459,9 @@
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 15l-6-6-6 6"/></svg>
     </button>
 
+    <script src="js/three.min.js"></script>
+    <script src="js/gsap.min.js"></script>
+    <script src="js/ScrollTrigger.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
