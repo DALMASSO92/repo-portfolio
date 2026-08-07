@@ -18,7 +18,10 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://[DOMAINE]"),
+  // Remplacer par le domaine réel au déploiement (ex. https://garde-site.fr).
+  // "garde-site.example" est un placeholder VALIDE pour new URL() — ne pas
+  // utiliser [DOMAINE] ici, les crochets cassent le parsing d'URL.
+  metadataBase: new URL("https://garde-site.example"),
   title: {
     default: "Garde-Site — Maintenance de sites web sans engagement",
     template: "%s — Garde-Site",
