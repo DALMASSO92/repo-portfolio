@@ -22,4 +22,6 @@ Objectif : livrer au matin UN business prêt à lancer (recherche → constructi
   - Ops : monitor.py (stdlib pur, TESTÉ : nominal + alertes + mock SSL/RDAP, 1 bug corrigé), runbook, rapport mensuel, onboarding.
 - ✅ Site : scaffold Next.js 16 (export statique), design system complet (thème phare/maritime, Fraunces+Inter auto-hébergées), landing complète, page bilan gratuit (formulaire mailto sans backend).
 - ✅ previsions.md (3 scénarios sourcés, charge hebdo, budget 10-82 €) + README-DEMARRAGE.md (draft).
-- ⏳ Vague 2 : agent d'intégration en cours (2 landings SEO, blog 3 articles, 3 pages légales, sitemap/robots, build + tests curl).
+- ✅ Vague 2 : intégration terminée — 2 landings SEO, blog + 3 articles, 3 pages légales, sitemap/robots. Lint 0 erreur. L'agent a corrigé un oubli (output:"export" manquant dans next.config.ts) et remappé les liens internes des articles.
+- ✅ TESTS FINAUX (rebuild de zéro) : `rm -rf node_modules && npm ci && npm run build` → build OK, 16 pages statiques. Serveur local + curl : **13/13 routes en HTTP 200**, spot-checks contenu OK (hero landing, « 293 B » dans CGV, formulaire bilan). Parcours principal (accueil → forfaits → bilan gratuit) vérifié en HTTP. Pas de test navigateur (Playwright exclu par l'utilisateur au pré-vol).
+- ⏳ Agent de vérification finale (relecture critique croisée de tous les livrables) en cours.
