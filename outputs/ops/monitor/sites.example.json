@@ -1,0 +1,20 @@
+[
+  {
+    "nom": "Boulangerie Martin",
+    "url": "https://www.client-exemple.fr",
+    "forfait": "Vigie",
+    "mot_cle": "Boulangerie Martin"
+  },
+  {
+    "nom": "Cabinet Dupont Avocats",
+    "url": "https://client-exemple-deux.fr",
+    "forfait": "Capitaine",
+    "mot_cle": "Dupont"
+  },
+  {
+    "nom": "Studio Lumen (Next.js)",
+    "url": "https://app.client-exemple-trois.fr",
+    "forfait": "Phare",
+    "mot_cle": "Studio Lumen"
+  }
+]
