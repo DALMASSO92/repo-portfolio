@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   // utiliser [DOMAINE] ici, les crochets cassent le parsing d'URL.
   metadataBase: new URL("https://garde-site.example"),
   title: {
-    default: "Garde-Site — Maintenance de sites web sans engagement",
+    default: "Garde-Site — Maintenance de site web sans engagement",
     template: "%s — Garde-Site",
   },
   description:

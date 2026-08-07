@@ -44,4 +44,4 @@ Positionnement prix : Vigie sous la médiane basique FR (29-50 €), Capitaine d
 Site vitrine statique (Next.js export) déployé sur le VPS OVH (sous-domaine existant ou domaine dédié ~10 €/an). Monitoring auto-hébergé (script Python + cron sur le VPS). Coût d'exploitation mois 1 : ~0-15 €.
 
 ## Placeholders (à remplacer par l'utilisateur, jamais inventer)
-`[PRÉNOM NOM]`, `[SIRET]`, `[ADRESSE]`, `[EMAIL_CONTACT]`, `[TELEPHONE]`, `[DOMAINE]` (ex. garde-site.fr ou sous-domaine), `[HEBERGEUR_VPS]` (OVH).
+`[PRÉNOM NOM]`, `[SIRET]`, `[ADRESSE]`, `[EMAIL_CONTACT]`, `[TELEPHONE]`, `[DOMAINE]` (ex. garde-site.fr ou sous-domaine).

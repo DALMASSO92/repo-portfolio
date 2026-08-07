@@ -149,7 +149,10 @@ export default function CGV() {
             3.2. La surveillance « 24h/24 » désigne une{" "}
             <strong>surveillance automatisée continue</strong> ; les
             interventions humaines sont réalisées aux jours et heures ouvrés,
-            dans les délais indicatifs annoncés.
+            dans les délais indicatifs annoncés. Le Prestataire s&apos;efforce
+            de répondre à toute demande sous 48 heures ouvrées ; les forfaits
+            Capitaine et Phare bénéficient d&apos;une réponse prioritaire sous
+            24 heures ouvrées.
           </p>
           <p>
             3.3. Le « Bilan de santé » gratuit est un audit automatisé, sans
@@ -472,18 +475,6 @@ export default function CGV() {
               <strong>[MÉDIATEUR — SITE WEB / FORMULAIRE DE SAISINE]</strong>
             </p>
           </blockquote>
-          <p>
-            15.3. Plateforme européenne de règlement en ligne des litiges
-            (RLL) :{" "}
-            <a
-              href="https://ec.europa.eu/consumers/odr/"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              https://ec.europa.eu/consumers/odr/
-            </a>
-          </p>
-
           <h2>Article 16 — Données personnelles</h2>
           <p>
             Le Prestataire traite les données du Client (contact, facturation)

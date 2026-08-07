@@ -84,7 +84,7 @@ Trois requêtes du segment custom testées en conditions réelles :
 - **Partenariats (②)** : relancer, viser 2 partenaires **actifs** (≥ 1 mise en relation réelle chacun).
 - **Base (①)** : e-mail n°3 = offre de fin de trimestre (ex. Remise en état créditée si souscription — mécanique déjà prévue au pricing, rien d'inventé).
 - **Plateformes (⑤) + LinkedIn (⑥)** : régime de croisière.
-- **Revue J90** : MRR, source de chaque client, positions SERP. Réallouer les heures 2027 vers les 2 canaux qui ont réellement signé.
+- **Revue J90** : MRR, source de chaque client, positions SERP. Réallouer les heures de fin 2026 vers les 2 canaux qui ont réellement signé.
 - **Objectif fin M3** : 4-8 abonnés (300-700 € MRR), 2-4 one-shot 149 €, 1er lead 100 % organique.
 
 ---

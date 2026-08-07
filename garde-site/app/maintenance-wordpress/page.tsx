@@ -79,7 +79,7 @@ export default function MaintenanceWordPress() {
         />
         <div className="mt-8 max-w-prose space-y-5 text-[1.0625rem] leading-relaxed text-encre/85">
           <p>
-            WordPress fait tourner plus de la moitié des sites en France, et
+            Environ 1 million de sites français tournent sous WordPress, et
             c&apos;est sa force. C&apos;est aussi sa faiblesse : chaque
             extension, chaque thème, chaque version du cœur reçoit
             régulièrement des correctifs de sécurité. Un site qui n&apos;est

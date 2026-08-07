@@ -46,7 +46,7 @@ export function Footer() {
         </div>
         <div className="mt-10 border-t border-ecume/15 pt-6 text-xs text-ecume/50">
           <p>
-            © {new Date().getFullYear()} Garde-Site — [PRÉNOM NOM], auto-entrepreneur.
+            © {new Date().getFullYear()} Garde-Site — [PRÉNOM NOM] EI, entrepreneur individuel.
             TVA non applicable, art. 293 B du CGI. Site sans cookies ni traceurs.
           </p>
         </div>

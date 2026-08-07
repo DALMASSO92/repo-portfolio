@@ -40,7 +40,7 @@ Contact : **[EMAIL_CONTACT]** — **[TELEPHONE]** — site : **[DOMAINE]**.
 | **Phare** | Next.js / React / Webflow / sites générés par IA | **129 €/mois** | Surveillance avancée (uptime, SSL, formulaires, erreurs JS), mises à jour de dépendances mensuelles, correctifs, 1 h de retouches/mois (article 4), rapport technique mensuel |
 | **Remise en état** (prestation ponctuelle, hors abonnement) | Tous sites | **149 €** (forfait unique) | Remise en fonctionnement d'un site dégradé : mises à jour en retard, corrections d'urgence, nettoyage de malware léger. Montant **crédité** sur le premier mois en cas de souscription d'un abonnement dans les 30 jours suivant la prestation. |
 
-3.2. La surveillance « 24h/24 » désigne une **surveillance automatisée continue** ; les interventions humaines sont réalisées aux jours et heures ouvrés, dans les délais indicatifs annoncés.
+3.2. La surveillance « 24h/24 » désigne une **surveillance automatisée continue** ; les interventions humaines sont réalisées aux jours et heures ouvrés, dans les délais indicatifs annoncés. Le Prestataire s'efforce de répondre à toute demande sous 48 heures ouvrées ; les forfaits Capitaine et Phare bénéficient d'une réponse prioritaire sous 24 heures ouvrées.
 
 3.3. Le « Bilan de santé » gratuit est un audit automatisé, sans engagement, fourni à titre purement indicatif.
 
@@ -152,11 +152,9 @@ Les correctifs, scripts et configurations produits dans le cadre des prestations
 >
 > *⚠️ Obligation légale : le professionnel qui vend à des consommateurs doit avoir adhéré à un dispositif de médiation référencé par la CECMC **avant** publication de ces CGV, et en communiquer les coordonnées (art. L.616-1 C. conso). À défaut : amende administrative (jusqu'à 3 000 € pour une personne physique). Voir le bloc « À vérifier » en tête de document pour des exemples de médiateurs et les coûts.*
 
-15.3. Plateforme européenne de règlement en ligne des litiges (RLL) : https://ec.europa.eu/consumers/odr/ *(⚠️ à vérifier : la Commission européenne a engagé la fermeture de cette plateforme ; supprimer cette mention si elle n'est plus en service à la date de publication).*
-
 ## Article 16 — Données personnelles
 
-Le Prestataire traite les données du Client (contact, facturation) conformément au RGPD et à sa [Politique de confidentialité]([DOMAINE]/politique-confidentialite), qui précise finalités, bases légales, durées de conservation et droits des personnes.
+Le Prestataire traite les données du Client (contact, facturation) conformément au RGPD et à sa [Politique de confidentialité]([DOMAINE]/confidentialite/), qui précise finalités, bases légales, durées de conservation et droits des personnes.
 
 ## Article 17 — Sous-traitance de données personnelles (art. 28 RGPD)
 

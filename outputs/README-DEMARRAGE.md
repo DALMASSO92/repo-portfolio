@@ -18,7 +18,7 @@
 ## Checklist de lancement (dans l'ordre — ~4-6 h au total, étalable sur la semaine)
 
 ### Jour 1 — mettre en ligne (~1 h 30)
-- [ ] **1. Remplacer les placeholders** (~20 min) — chercher `[PRÉNOM NOM]`, `[SIRET]`, `[ADRESSE]`, `[EMAIL_CONTACT]`, `[TELEPHONE]`, `[DOMAINE]` dans `garde-site/` et `outputs/legal/` (`grep -rn "\[SIRET\]\|\[PRÉNOM" garde-site outputs`). Remplacer aussi `https://garde-site.example` (layout.tsx, sitemap.ts, robots.ts) par le domaine réel.
+- [ ] **1. Remplacer les placeholders** (~20 min) — détection exhaustive de tous les jetons : `grep -rn "\[" garde-site/app garde-site/components garde-site/lib outputs/legal --include="*.tsx" --include="*.ts" --include="*.md"`. Les placeholders incluent `[PRÉNOM NOM]`, `[SIRET]`, `[ADRESSE]`, `[EMAIL_CONTACT]`, `[TELEPHONE]`, `[DOMAINE]`, mais aussi `[DATE]`, `[X jours …]`, `[MÉDIATEUR — NOM/ADRESSE/SITE]`, `[à vérifier…]`, `[à confirmer…]` — et SURTOUT `[EMAIL_CONTACT]` dans `garde-site/components/BilanForm.tsx` (ligne ~9 : c'est le mailto du CTA principal — s'il n'est pas remplacé, le formulaire est mort). Remplacer aussi `https://garde-site.example` (layout.tsx, sitemap.ts, robots.ts) par le domaine réel.
 - [ ] **2. Choisir le domaine** (~10 min, ~10 €) — `garde-site.fr` était **libre au 07/08/2026** (aucun site actif trouvé) : à vérifier et réserver chez OVH. Alternative 0 € : sous-domaine d'un de tes domaines existants.
 - [ ] **3. Créer l'adresse e-mail de contact** (~10 min) — ex. `bonjour@garde-site.fr` (MX Plan OVH inclus avec le domaine).
 - [ ] **4. Builder et déployer sur le VPS** (~30 min) — `cd garde-site && npm install && npm run build` → copier `out/` vers le VPS, ajouter le vhost Nginx (site statique, SSL wildcard déjà en place). Vérifier chaque page en prod.
@@ -30,7 +30,7 @@
 - [ ] **8. Mettre le monitoring en service** (~15 min) — `outputs/ops/monitor/` sur le VPS, cron 5 min (README inclus). Ajouter tes premiers sites (même ceux du studio : ça fait des captures d'écran de rapports pour vendre).
 
 ### Semaine 1 — acquisition (~2-3 h)
-- [ ] **9. Suivre le plan 90 jours** — `outputs/marketing/plan-acquisition-90j.md`, semaine 1 : e-mails dormants (modèle n°2) + réponses aux demandes de maintenance sur Codeur.com/Malt.
+- [ ] **9. Suivre le plan 90 jours** — `outputs/marketing/plan-acquisition-90j.md`. S1 : e-mail n°1 base clients + post LinkedIn ; S2 : e-mails dormants (n°2) + veille Codeur.com/Malt en réactif.
 - [ ] **10. Publier l'article n°2** (maintenance Next.js/React — le différenciateur, SERP vierge) — déjà intégré au site (`/blog/`), le partager sur LinkedIn.
 - [ ] **11. Facturation** — créer le compte sur un outil gratuit (Henrri ou Abby gratuit) OU utiliser `outputs/legal/modele-devis-contrat.md` + tes factures habituelles d'AE. Mention obligatoire déjà incluse : « TVA non applicable, art. 293 B du CGI ».
 - [ ] **12. (Optionnel) Paiement récurrent** — au 1er abonné : soit virement/prélèvement GoCardless (1 %+0,25 €/transaction, pas d'abonnement), soit lien de paiement Stripe. Aucun compte n'a été créé cette nuit (interdit sans tes identifiants).

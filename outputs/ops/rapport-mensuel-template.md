@@ -70,6 +70,9 @@ Les mises à jour corrigent des failles de sécurité et des bugs. Nous les appl
 
 Une question sur ce rapport ? Répondez simplement à cet e-mail : réponse sous
 [24 h ouvrées / 48 h ouvrées]. Merci de votre confiance.
+
+Rappel : votre abonnement est sans engagement — résiliable à tout moment par simple e-mail à [EMAIL_CONTACT], effectif à la fin du mois en cours.
+
 **[PRÉNOM NOM] — Garde-Site** · [EMAIL_CONTACT] · [TELEPHONE]
 
 <!-- Notes internes (à supprimer avant envoi) :

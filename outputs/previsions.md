@@ -7,7 +7,7 @@ Hypothèses construites UNIQUEMENT à partir des données sourcées de `recherch
 | Hypothèse | Valeur retenue | Source |
 |---|---|---|
 | Panier moyen abonnement | 49-129 €/mois (mix ≈ 75 €) | Grille Garde-Site, dans les fourchettes marché FR 29-300 €/mois (clickdev.fr, smart-agency.fr, cf. recherche-marche.md) |
-| Canal n°1 : conversion base clients studio | Le taux de conversion est maximal au moment de la livraison d'un site ; sur une base existante on retient prudemment 10-25 % | rocket.net, axiswebart.com (recherche-marche.md §4-C « canal n°1 documenté ») |
+| Canal n°1 : conversion base clients studio | 10-25 % : hypothèse prudente posée par nous (le fait sourcé est qualitatif : conversion maximale au moment de la livraison — rocket.net, axiswebart.com) | rocket.net, axiswebart.com (recherche-marche.md §4-C « canal n°1 documenté ») |
 | Charge par client | 1,5-2,5 h/mois au début, 10-15 min une fois outillé | dev.to (chiffres réels d'un opérateur), modulards.com |
 | Churn | < 10 %/an sur care plans bien tenus | axiswebart.com, dev.to |
 | Capacité max dans 5-10 h/sem | 15-25 clients avec automatisation | Calcul recherche-marche.md §4-C |

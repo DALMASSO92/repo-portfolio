@@ -3,7 +3,7 @@
 **Meta title** : Maintenance site Next.js / React : qui s'en occupe ? *(52 caractères)*
 **Meta description** : Votre site Next.js, React ou généré par IA a été livré… et après ? Dépendances, sécurité, hébergement : ce qu'il faut maintenir, et qui peut le faire. *(150 caractères)*
 **Slug** : `maintenance-site-nextjs-react`
-**Maillage interne** : [forfait Phare — sites custom](/offres/sites-custom) · [nos offres](/offres) · [Bilan de santé gratuit](/bilan-de-sante) · [Combien coûte la maintenance d'un site web ?](/blog/tarif-maintenance-site-web) · [Site piraté : que faire ?](/blog/site-pirate-que-faire)
+**Maillage interne** : [forfait Phare — sites custom](/maintenance-site-nextjs-react/) · [nos offres](/#forfaits) · [Bilan de santé gratuit](/bilan-gratuit/) · [Combien coûte la maintenance d'un site web ?](/blog/tarif-maintenance-site-web) · [Site piraté : que faire ?](/blog/site-pirate-que-faire)
 
 ---
 
@@ -61,7 +61,7 @@ Que ce soit avec nous ou un autre développeur, exigez au minimum :
 4. **Sauvegardes** du code et des données, restaurables.
 5. **Un humain joignable**, qui connaît votre projet et peut faire une retouche sans tout redécouvrir.
 
-C'est exactement le périmètre de notre forfait **[Phare, à 129 €/mois sans engagement](/offres/sites-custom)** : surveillance avancée, mises à jour de dépendances mensuelles, correctifs, 1 h de retouches par mois et un rapport technique lisible. Nous sommes développeurs Next.js/React avant d'être mainteneurs — c'est notre stack quotidienne, pas une ligne de plus au catalogue.
+C'est exactement le périmètre de notre forfait **[Phare, à 129 €/mois sans engagement](/maintenance-site-nextjs-react/)** : surveillance avancée, mises à jour de dépendances mensuelles, correctifs, 1 h de retouches par mois et un rapport technique lisible. Nous sommes développeurs Next.js/React avant d'être mainteneurs — c'est notre stack quotidienne, pas une ligne de plus au catalogue.
 
 ## Par où commencer
 
@@ -77,6 +77,6 @@ Deux « non » ou plus : votre site est orphelin.
 
 ### Faites vérifier votre site par un développeur
 
-Notre **[Bilan de santé gratuit](/bilan-de-sante)** s'applique aussi — surtout — aux sites Next.js, React, Webflow et générés par IA : état des dépendances, certificat, disponibilité, formulaires. Rapport clair sous quelques jours, sans engagement. Vous saurez exactement où vous en êtes, même si vous ne donnez pas suite.
+Notre **[Bilan de santé gratuit](/bilan-gratuit/)** s'applique aussi — surtout — aux sites Next.js, React, Webflow et générés par IA : état des dépendances, certificat, disponibilité, formulaires. Rapport clair sous 24 h ouvrées, sans engagement. Vous saurez exactement où vous en êtes, même si vous ne donnez pas suite.
 
 *Garde-Site — Votre site sous bonne garde, 24h/24. Contact : [EMAIL_CONTACT] · [DOMAINE]*

@@ -69,7 +69,7 @@ Règles :
 
 > Bonjour [Prénom], bonne idée ! Cette demande dépasse le cadre des retouches incluses
 > (tâches de moins de 30 minutes) : je l'estime à environ [X h]. Deux options :
-> je vous prépare un mini-devis à [tarif horaire] € HT/h, ou nous la découpons pour
+> je vous prépare un mini-devis à [tarif horaire] € nets/h (TVA non applicable, art. 293 B du CGI), ou nous la découpons pour
 > traiter la partie [sous-tâche ≤ 30 min] dès ce mois-ci dans votre forfait.
 > Dites-moi ce que vous préférez.
 

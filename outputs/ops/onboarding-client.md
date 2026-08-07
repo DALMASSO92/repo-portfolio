@@ -10,6 +10,7 @@ Cocher chaque case ; dater les jalons dans le journal client.
 - [ ] Créer le dossier client : `clients/[nom]/` avec `journal.md` et `retouches.md` (si Capitaine/Phare).
 - [ ] Envoyer l'e-mail de bienvenue (modèle ci-dessous) avec la demande d'accès sécurisée.
 - [ ] Créer la fiche client : nom, contact, site, forfait, type (WordPress / Next.js / React / Webflow), hébergeur, registrar, **parcours clé** à tester chaque mois (ex. formulaire de contact, commande, prise de RDV).
+- [ ] Client consommateur (particulier) ? Vérifier que les cases « demande d'exécution immédiate + renonciation au droit de rétractation » du devis sont cochées AVANT toute intervention (CGV art. 14) ; sinon attendre l'expiration du délai de 14 jours.
 
 ## J0-J1 — Collecte sécurisée des accès
 

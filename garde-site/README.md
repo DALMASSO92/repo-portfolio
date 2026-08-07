@@ -1,36 +1,89 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Garde-Site — site vitrine
 
-## Getting Started
+Site vitrine du service **Garde-Site** : maintenance de sites web par abonnement (49/89/129 €/mois, sans engagement), WordPress et sites custom (Next.js, React, Webflow, générés par IA).
+Site 100 % statique : aucun backend, aucun cookie, aucun service tiers. Le formulaire de bilan fonctionne en `mailto` (voir plus bas pour passer à un envoi serveur).
+Les textes sources et documents d'exploitation sont dans `../outputs/` (marketing, légal, ops).
 
-First, run the development server:
+## Stack
+
+- **Next.js 16** (App Router) en **export statique** (`output: "export"` dans `next.config.ts`) — le build produit un dossier `out/` de fichiers HTML/CSS/JS purs.
+- **Tailwind CSS v4** (via `@tailwindcss/postcss`).
+- **Aucune dépendance runtime** côté serveur : rien à faire tourner en production, un simple serveur de fichiers statiques suffit.
+
+## Commandes
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install        # installer les dépendances
+npm run dev        # serveur de développement (http://localhost:3000)
+npm run lint       # ESLint
+npm run build      # build de production → dossier out/
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Déploiement (VPS OVH)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Builder en local : `npm run build` → le site complet est dans `out/`.
+2. Copier `out/` sur le VPS, par exemple :
+   ```bash
+   rsync -avz --delete out/ vps:/var/www/garde-site/
+   ```
+3. Ajouter un vhost Nginx statique minimal (SSL via votre configuration wildcard existante) :
+   ```nginx
+   server {
+       listen 443 ssl;
+       server_name garde-site.fr;
+       # ssl_certificate / ssl_certificate_key : votre config SSL habituelle
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+       root /var/www/garde-site;
+       index index.html;
 
-## Learn More
+       location / {
+           try_files $uri $uri/ $uri.html =404;
+       }
+   }
+   ```
+4. Vérifier chaque page en production (accueil, forfaits, bilan, blog, pages légales).
 
-To learn more about Next.js, take a look at the following resources:
+## Placeholders à remplacer AVANT le build
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Détection exhaustive : `grep -rn "\[" app components lib --include="*.tsx" --include="*.ts"`.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **`components/BilanForm.tsx`** — `[EMAIL_CONTACT]` (ligne ~9) : c'est le `mailto` du CTA principal. **S'il n'est pas remplacé, le formulaire est mort.**
+- `app/layout.tsx`, `app/sitemap.ts`, `app/robots.ts` — remplacer `https://garde-site.example` par le domaine réel.
+- Pages légales et footer : `[PRÉNOM NOM]`, `[SIRET]`, `[ADRESSE]`, `[EMAIL_CONTACT]`, `[TELEPHONE]`, `[DOMAINE]`, `[DATE]`, `[X jours …]`, `[MÉDIATEUR — NOM/ADRESSE/SITE]`, ainsi que les mentions `[à vérifier…]` / `[à confirmer…]`.
 
-## Deploy on Vercel
+## Formulaire : passer du mailto à un envoi serveur
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Le formulaire (`components/BilanForm.tsx`) construit aujourd'hui un e-mail pré-rempli côté client. Pour un envoi serveur plus fiable : un petit endpoint FastAPI sur le VPS, et remplacer le `window.location.href = mailto:…` par un `fetch`.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Esquisse côté serveur :
+
+```python
+from fastapi import FastAPI
+from pydantic import BaseModel
+
+app = FastAPI()
+
+class Bilan(BaseModel):
+    site: str
+    nom: str
+    email: str
+    techno: str = ""
+    inquietude: str = ""
+
+@app.post("/api/bilan")
+def bilan(b: Bilan):
+    # envoyer un e-mail (smtplib / API du fournisseur) ou consigner la demande
+    return {"ok": True}
+```
+
+Côté client, dans `handleSubmit` :
+
+```ts
+await fetch("https://garde-site.fr/api/bilan", {
+  method: "POST",
+  headers: { "Content-Type": "application/json" },
+  body: JSON.stringify(Object.fromEntries(data)),
+});
+```
+
+Servir l'endpoint derrière Nginx (`location /api/ { proxy_pass http://127.0.0.1:8000; }`) et adapter la politique de confidentialité si des données sont alors stockées côté serveur.

@@ -3,7 +3,7 @@
 **Meta title** : Site piraté ou cassé : que faire dans l'heure ? *(47 caractères)*
 **Meta description** : Votre site est piraté, défiguré ou hors ligne ? Guide d'urgence pas à pas : les bons réflexes dans l'heure, les erreurs à éviter, et qui appeler. *(144 caractères)*
 **Slug** : `site-pirate-que-faire`
-**Maillage interne** : [Remise en état — 149 €](/remise-en-etat) · [nos offres de maintenance](/offres) · [Bilan de santé gratuit](/bilan-de-sante) · [Combien coûte la maintenance d'un site ?](/blog/tarif-maintenance-site-web) · [Maintenance des sites Next.js/React](/blog/maintenance-site-nextjs-react)
+**Maillage interne** : [Remise en état — 149 €](/#forfaits) · [nos offres de maintenance](/#forfaits) · [Bilan de santé gratuit](/bilan-gratuit/) · [Combien coûte la maintenance d'un site ?](/blog/tarif-maintenance-site-web) · [Maintenance des sites Next.js/React](/blog/maintenance-site-nextjs-react)
 
 ---
 
@@ -87,16 +87,16 @@ Si vous avez un contrat de maintenance : appelez votre prestataire, c'est son tr
 - **Un développeur freelance en urgence** : efficace si vous en connaissez un de confiance, disponible aujourd'hui.
 - **Un service de remise en état forfaitaire** : prix connu d'avance, intervention rapide.
 
-C'est ce que nous proposons chez Garde-Site : la **[Remise en état à 149 €](/remise-en-etat)**, prix fixe annoncé avant toute intervention — diagnostic, nettoyage ou réparation, remise en ligne, et compte rendu de ce qui s'est passé. WordPress comme sites custom (Next.js, React, Webflow). Et si vous souscrivez ensuite un forfait de maintenance dans les 30 jours, ces 149 € sont déduits : l'urgence d'aujourd'hui finance la tranquillité de demain.
+C'est ce que nous proposons chez Garde-Site : la **[Remise en état à 149 €](/#forfaits)**, prix fixe annoncé avant toute intervention — diagnostic, nettoyage ou réparation, remise en ligne, et compte rendu de ce qui s'est passé. WordPress comme sites custom (Next.js, React, Webflow). Et si vous souscrivez ensuite un forfait de maintenance dans les 30 jours, ces 149 € sont déduits : l'urgence d'aujourd'hui finance la tranquillité de demain.
 
 ## Après l'incident : que ça ne se reproduise plus
 
-Une fois le site réparé, trois mesures non négociables : mises à jour régulières (cœur, extensions ou dépendances), sauvegardes automatiques **externalisées** et testées, et surveillance qui vous alerte avant vos clients. C'est précisément le rôle d'un [forfait de maintenance](/offres) — le nôtre ou un autre. Un incident est un mauvais souvenir acceptable ; deux incidents, c'est un choix.
+Une fois le site réparé, trois mesures non négociables : mises à jour régulières (cœur, extensions ou dépendances), sauvegardes automatiques **externalisées** et testées, et surveillance qui vous alerte avant vos clients. C'est précisément le rôle d'un [forfait de maintenance](/#forfaits) — le nôtre ou un autre. Un incident est un mauvais souvenir acceptable ; deux incidents, c'est un choix.
 
 ---
 
 ### Site en panne maintenant ?
 
-Écrivez-nous à [EMAIL_CONTACT] avec l'adresse de votre site et une capture d'écran : nous vous répondons rapidement avec un premier diagnostic. Et si votre site va bien mais que vous voulez vérifier qu'il est prêt à encaisser, le **[Bilan de santé gratuit](/bilan-de-sante)** est fait pour ça.
+Écrivez-nous à [EMAIL_CONTACT] avec l'adresse de votre site et une capture d'écran : nous vous répondons rapidement avec un premier diagnostic. Et si votre site va bien mais que vous voulez vérifier qu'il est prêt à encaisser, le **[Bilan de santé gratuit](/bilan-gratuit/)** est fait pour ça.
 
 *Garde-Site — Votre site sous bonne garde, 24h/24. [DOMAINE]*

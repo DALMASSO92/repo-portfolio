@@ -52,7 +52,7 @@ La marque et le nom « Garde-Site » ne peuvent être utilisés sans l'accord é
 
 ## Données personnelles et cookies
 
-Le traitement des données personnelles collectées via le Site (notamment le formulaire de contact) est décrit dans la **[Politique de confidentialité](/politique-confidentialite)**.
+Le traitement des données personnelles collectées via le Site (notamment le formulaire de contact) est décrit dans la **[Politique de confidentialité](/confidentialite/)**.
 
 Le Site ne dépose **aucun cookie ni traceur soumis à consentement** (pas de mesure d'audience tierce, pas de publicité, pas de réseaux sociaux embarqués). Aucun bandeau de recueil de consentement n'est donc requis.
 

@@ -234,7 +234,7 @@ export default function ArticleMaintenanceNextjs() {
             Notre bilan de santé gratuit s&apos;applique aussi — surtout — aux
             sites Next.js, React, Webflow et générés par IA : état des
             dépendances, certificat, disponibilité, formulaires. Rapport clair
-            sous quelques jours, sans engagement. Vous saurez exactement où
+            sous 24 h ouvrées, sans engagement. Vous saurez exactement où
             vous en êtes, même si vous ne donnez pas suite.
           </p>
           <div className="mt-6">

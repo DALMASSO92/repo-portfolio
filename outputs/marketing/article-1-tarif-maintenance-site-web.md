@@ -3,7 +3,7 @@
 **Meta title** : Combien coûte la maintenance d'un site web en 2026 ? *(52 caractères)*
 **Meta description** : Tarifs réels de la maintenance de site web en France : de 12 à 300 €/mois. Ce que cachent les prix bas, et comment choisir sans vous tromper. *(140 caractères)*
 **Slug** : `tarif-maintenance-site-web`
-**Maillage interne** : [nos offres de maintenance](/offres) · [forfait sites custom](/offres/sites-custom) · [Bilan de santé gratuit](/bilan-de-sante) · [Site piraté : que faire ?](/blog/site-pirate-que-faire)
+**Maillage interne** : [nos offres de maintenance](/#forfaits) · [forfait sites custom](/maintenance-site-nextjs-react/) · [Bilan de santé gratuit](/bilan-gratuit/) · [Site piraté : que faire ?](/blog/site-pirate-que-faire)
 
 ---
 
@@ -70,12 +70,12 @@ Le tout **sans engagement**, résiliation en un e-mail. Nous ne sommes ni les mo
 
 ## Le vrai coût, c'est l'absence de maintenance
 
-Dernier chiffre à garder en tête : notre forfait one-shot « [Remise en état](/remise-en-etat) » d'un site cassé ou piraté coûte 149 € — et c'est un prix d'appel. Sur le marché, un nettoyage de site compromis se facture couramment plusieurs centaines d'euros, sans compter les visiteurs perdus pendant la panne. Douze mois de maintenance basique coûtent souvent moins cher qu'une seule vraie panne. C'est le calcul honnête à faire, quel que soit le prestataire que vous choisirez.
+Dernier chiffre à garder en tête : notre forfait one-shot « [Remise en état](/#forfaits) » d'un site cassé ou piraté coûte 149 € — et c'est un prix d'appel. Sur le marché, un nettoyage de site compromis se facture couramment plusieurs centaines d'euros, sans compter les visiteurs perdus pendant la panne. Douze mois de maintenance basique coûtent souvent moins cher qu'une seule vraie panne. C'est le calcul honnête à faire, quel que soit le prestataire que vous choisirez.
 
 ---
 
 ### Où en est votre site, concrètement ?
 
-Faites le point en 5 minutes : notre **[Bilan de santé gratuit](/bilan-de-sante)** vérifie mises à jour, sauvegardes, sécurité et vitesse de votre site, et vous envoie un rapport clair. Sans engagement, sans carte bancaire — et le rapport reste utile même si vous ne travaillez jamais avec nous.
+Faites le point en 5 minutes : notre **[Bilan de santé gratuit](/bilan-gratuit/)** vérifie mises à jour, sauvegardes, sécurité et vitesse de votre site, et vous envoie un rapport clair. Sans engagement, sans carte bancaire — et le rapport reste utile même si vous ne travaillez jamais avec nous.
 
 *Garde-Site — Votre site sous bonne garde, 24h/24. Contact : [EMAIL_CONTACT] · [DOMAINE]*

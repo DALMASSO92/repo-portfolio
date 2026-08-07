@@ -59,7 +59,7 @@ export const faq: { q: string; a: string }[] = [
   },
   {
     q: "Quels sont les délais ?",
-    a: "Mise sous garde sous 48 h après souscription. Réponse à toute demande sous 24 h ouvrées (prioritaire sur Capitaine et Phare). Mises à jour WordPress chaque semaine, dépendances custom chaque mois, rapport chaque mois.",
+    a: "Mise sous garde sous 48 h après souscription. Réponse à toute demande sous 48 h ouvrées (prioritaire < 24 h ouvrées sur Capitaine et Phare). Mises à jour WordPress chaque semaine, dépendances custom chaque mois, rapport chaque mois.",
   },
   {
     q: "Vos prix sont-ils HT ou TTC ? Ai-je une facture ?",
@@ -67,7 +67,7 @@ export const faq: { q: string; a: string }[] = [
   },
   {
     q: "Comment résilier ?",
-    a: "Un e-mail à [EMAIL_CONTACT] suffit. La résiliation prend effet à la fin du mois en cours. Nous vous restituons vos accès et une sauvegarde complète de votre site. Aucune retenue, aucune pénalité.",
+    a: "Un e-mail à [EMAIL_CONTACT] suffit. La résiliation prend effet à la fin du mois en cours. Nous vous restituons vos accès et, sur simple demande sous 30 jours, une sauvegarde complète de votre site. Aucune retenue, aucune pénalité.",
   },
   {
     q: "Que faites-vous de mes accès ?",

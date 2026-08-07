@@ -7,12 +7,12 @@ import { faq, plans } from "@/lib/plans";
 export const metadata: Metadata = {
   title: { absolute: "Garde-Site — Maintenance de site web sans engagement" },
   description:
-    "Maintenance WordPress, Next.js, React et Webflow par abonnement dès 49 €/mois. Sans engagement, rapport mensuel, réponse < 24 h ouvrées. Bilan gratuit.",
+    "Maintenance WordPress, Next.js, React et Webflow par abonnement dès 49 €/mois. Sans engagement, rapport mensuel. Bilan de santé gratuit sous 24 h ouvrées.",
 };
 
 const reassurance = [
   { t: "Sans engagement", d: "résiliation en 1 clic, par e-mail." },
-  { t: "Réponse < 24 h ouvrées", d: "un humain, pas un ticket perdu." },
+  { t: "Réponse humaine < 48 h ouvrées", d: "prioritaire < 24 h en Capitaine et Phare." },
   { t: "Service français", d: "interlocuteur unique, factures conformes." },
   { t: "Rapport chaque mois", d: "vous savez exactement ce qui a été fait." },
 ];
@@ -201,8 +201,9 @@ export default function Home() {
               <p className="mt-5 leading-relaxed text-ecume/80">
                 Les offres de maintenance françaises s&apos;arrêtent presque
                 toutes à WordPress. Pour les sites custom, c&apos;est le
-                désert : à notre connaissance, aucun autre service productisé
-                français ne couvre ces technologies. C&apos;est précisément
+                désert : sur Next.js et React, nous n&apos;avons trouvé aucun
+                service productisé français équivalent — et très peu couvrent
+                Webflow. C&apos;est précisément
                 notre terrain — c&apos;est la stack sur laquelle nous
                 développons au quotidien. Votre site a été généré par une IA et
                 personne n&apos;ose y toucher ? Nous, si. Forfait{" "}

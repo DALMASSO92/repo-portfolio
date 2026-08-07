@@ -62,8 +62,8 @@ export default function Confidentialite() {
                     </strong>
                   </td>
                   <td>
-                    Identité (nom, prénom), adresse e-mail, téléphone
-                    (facultatif), URL du site concerné, contenu du message
+                    Identité (nom, prénom), adresse e-mail, URL du site
+                    concerné, contenu du message
                   </td>
                   <td>Répondre à votre demande, établir un devis</td>
                   <td>

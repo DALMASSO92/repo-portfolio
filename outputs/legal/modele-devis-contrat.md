@@ -88,7 +88,7 @@ En cas de litige non résolu par réclamation directe auprès du Prestataire, vo
 
 ### 8. Données personnelles
 
-Les données recueillies via ce devis sont traitées pour l'établissement et l'exécution du contrat, conformément à la [Politique de confidentialité]([DOMAINE]/politique-confidentialite). Lorsque la maintenance implique l'accès à des données personnelles du site du Client, le Prestataire agit en qualité de sous-traitant (art. 28 RGPD — article 17 des CGV).
+Les données recueillies via ce devis sont traitées pour l'établissement et l'exécution du contrat, conformément à la [Politique de confidentialité]([DOMAINE]/confidentialite/). Lorsque la maintenance implique l'accès à des données personnelles du site du Client, le Prestataire agit en qualité de sous-traitant (art. 28 RGPD — article 17 des CGV).
 
 ---
 

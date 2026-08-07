@@ -25,7 +25,7 @@
 ### 2. Barre de réassurance
 
 - **Sans engagement** — résiliation en 1 clic, par e-mail.
-- **Réponse < 24 h ouvrées** — un humain, pas un ticket perdu.
+- **Réponse humaine < 48 h ouvrées** — prioritaire < 24 h en Capitaine et Phare.
 - **Service français** — interlocuteur unique, factures conformes.
 - **Rapport chaque mois** — vous savez exactement ce qui a été fait.
 
@@ -105,7 +105,7 @@ CTA : `Commencer par le bilan gratuit`
 
 **Encart différenciateur :**
 > ### Sites Next.js, React, Webflow ou générés par IA ? Vous êtes au bon endroit.
-> Les offres de maintenance françaises s'arrêtent presque toutes à WordPress. Pour les sites custom, c'est le désert : à notre connaissance, aucun autre service productisé français ne couvre ces technologies. C'est précisément notre terrain — c'est la stack sur laquelle nous développons au quotidien. Votre site a été généré par une IA et personne n'ose y toucher ? Nous, si. Forfait **Phare, 129 €/mois**, mise sous garde en 48 h.
+> Les offres de maintenance françaises s'arrêtent presque toutes à WordPress. Pour les sites custom, c'est le désert : sur Next.js et React, nous n'avons trouvé aucun service productisé français équivalent — et très peu couvrent Webflow. C'est précisément notre terrain — c'est la stack sur laquelle nous développons au quotidien. Votre site a été généré par une IA et personne n'ose y toucher ? Nous, si. Forfait **Phare, 129 €/mois**, mise sous garde en 48 h.
 
 ---
 
@@ -140,13 +140,13 @@ Votre hébergeur loue le terrain : le serveur. Il ne met pas à jour votre site,
 Oui, et c'est rare. Vigie et Capitaine couvrent WordPress ; Phare couvre Next.js, React, Webflow et les sites générés par IA. Même exigence, outils adaptés à chaque technologie.
 
 **Quels sont les délais ?**
-Mise sous garde sous 48 h après souscription. Réponse à toute demande sous 24 h ouvrées (prioritaire sur Capitaine et Phare). Mises à jour WordPress chaque semaine, dépendances custom chaque mois, rapport chaque mois.
+Mise sous garde sous 48 h après souscription. Réponse à toute demande sous 48 h ouvrées (prioritaire < 24 h ouvrées sur Capitaine et Phare). Mises à jour WordPress chaque semaine, dépendances custom chaque mois, rapport chaque mois.
 
 **Vos prix sont-ils HT ou TTC ? Ai-je une facture ?**
 Nos prix sont nets : TVA non applicable, art. 293 B du CGI. 49 € affichés = 49 € payés. Vous recevez une facture conforme chaque mois, utilisable en comptabilité.
 
 **Comment résilier ?**
-Un e-mail à `[EMAIL_CONTACT]` suffit. La résiliation prend effet à la fin du mois en cours. Nous vous restituons vos accès et une sauvegarde complète de votre site. Aucune retenue, aucune pénalité.
+Un e-mail à `[EMAIL_CONTACT]` suffit. La résiliation prend effet à la fin du mois en cours. Nous vous restituons vos accès et, sur simple demande sous 30 jours, une sauvegarde complète de votre site. Aucune retenue, aucune pénalité.
 
 **Que faites-vous de mes accès ?**
 Ils sont stockés dans un gestionnaire de mots de passe chiffré, utilisés uniquement pour la maintenance, jamais partagés. À la résiliation, nous les supprimons et vous recommandons de les renouveler — c'est la bonne pratique, et nous vous montrons comment.
