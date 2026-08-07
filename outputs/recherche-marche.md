@@ -47,3 +47,17 @@ Objectif : trouver UNE idée maximisant **(revenu rapide × faible effort × fai
 - **E. Extension Chrome freelances Malt** — pari sur la niche plateforme + compétence extensions.
 
 *(Les synthèses concurrentielles, preuves de demande et scores arrivent ci-dessous une fois les 5 recherches terminées.)*
+
+## 4. Synthèses de recherche approfondie (sous-agents)
+
+### Idée B — Boilerplate Next.js « SaaS à la française » — **4,5/10**
+
+**Concurrence.** ShipFast (Marc Lou) domine : ~129-199 $, 8 382 clients revendiqués (shipfa.st), 250 K$ en 5 mois au lancement 2023 — mais en fort déclin (~8,8 K$/mois en fév. 2026 vs 17,2 K$ en janv., source indieai.directory) : marché générique en fin de cycle. Autres : Makerkit 299-599 $, supastarter 349-1 499 $, + gratuits sérieux (ixartz/SaaS-Boilerplate, ShipFree — clone open source de ShipFast avec locale FR). **Aucun boilerplate spécifiquement français n'existe** (seul saasboilerplate.fr, simple annuaire) — créneau vide, mais vide possiblement parce que trop petit.
+
+**Preuves de demande.** Le pain point légal/facturation FR est réel et documenté : Stripe n'émet pas de factures conformes au droit FR ni la mention « TVA non applicable, art. 293 B » (striptu.com, stripe.com, forum Pragmatic Entrepreneurs) ; l'existence de Striptu prouve la douleur. Le marché paie pour les boilerplates (>1 M$ cumulé ShipFast). MAIS la communauté indie FR structurée est minuscule (Discord Indie Makers FR ~203 membres) ; les indie FR qui réussissent opèrent en anglais et n'ont pas besoin du spécifique France.
+
+**Acquisition.** Talon d'Achille : business de distribution, pas de produit. Succès ShipFast = ~100 K followers X construits sur des années. Sans audience : SEO FR longue traîne peu concurrentiel mais volume faible et délai 6-12 mois ; communautés FR minuscules. Scène boilerplate « sursaturée de copycats » (jasonleow.substack.com).
+
+**3 risques majeurs.** (1) Marché adressable minuscule (centaines d'acheteurs potentiels) ; (2) dépendance à une audience inexistante ; (3) obsolescence + concurrence gratuite (ShipFree, IA générative) pour un one-shot.
+
+**Angle recommandé si retenue.** Ne pas vendre un boilerplate de plus mais un **module « conformité France clé en main »** (pages légales, factures 293 B, RGPD, facturation électronique 2026-2027) à 49-79 €, compatible ShipFast/Makerkit — le boilerplate complet en upsell.
