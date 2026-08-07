@@ -12,4 +12,6 @@ Objectif : livrer au matin UN business prêt à lancer (recherche → constructi
 - ✅ Phase 1a : brainstorm 17 idées, 12 rejetées (documenté), top 5 shortlisté.
 - ✅ Phase 1b : 5 sous-agents de recherche lancés en parallèle (A audit RGAA, B boilerplate FR, C maintenance, D Google Business Profile, E extension Malt).
 - ✅ Synthèse B reçue : boilerplate SaaS FR = 4,5/10 (marché minuscule, besoin d'audience). Intégrée à recherche-marche.md.
-- ⏳ En attente des synthèses A, C, D, E.
+- ✅ Synthèses A (5,5), C (7,5), D (6), E (4,5) reçues et intégrées.
+- ✅ Phase 1 TERMINÉE : tableau comparatif + décision documentés. **Gagnante : C — maintenance de sites productisée (hybride WordPress + sites custom Next.js)**. Secours : D (GBP) puis A (RGAA), plans de pivot documentés dans recherche-marche.md §7.
+- ⏳ Phase 2 : branding, puis sous-agents parallèles (copywriting, légal, ops/SEO), puis construction du site.

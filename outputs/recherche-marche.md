@@ -92,6 +92,20 @@ Objectif : trouver UNE idée maximisant **(revenu rapide × faible effort × fai
 
 **Angle recommandé si retenue.** « Anti-Solocal » sans engagement, audit automatisé gratuit en porte d'entrée, forfait « sauvetage de fiche suspendue », verticale unique (ex. restaurateurs d'une métropole) pour industrialiser.
 
+### Idée E — Extension Chrome pour freelances Malt — **4,5/10**
+
+**Concurrence.** Le créneau existe déjà mais reste embryonnaire : ≥4 extensions Chrome ciblant Malt (OptiMalt — audit de profil freemium, Malt Helper, etc.) + malt-shift.com. Signal clé : OptiMalt, porté par un indie hacker médiatisé, plafonne à **~800 téléchargements / ~100 abonnés premium** — le marché atteignable se compte en centaines. Modèle validé à plus grande échelle sur Upwork (Upwex ~5 $/mois, GigRadar). Freebe (~15 €/mois) et Superindep (19-39 €/mois) occupent déjà le volet URSSAF.
+
+**Demande.** Malt : ~594-700 K freelances inscrits ; douleur réelle et documentée sur la visibilité/l'algorithme (refonte IA mars 2026 anxiogène, « un an sur Malt, aucune mission »). Mais Malt notifie déjà les opportunités entrantes → la proposition « alertes projets » est structurellement plus faible que sur Upwork.
+
+**Risque plateforme : ÉLEVÉ.** CGU Malt interdisent l'extraction automatisée ; aucune API publique ; suspensions de comptes sans préavis (des avocats se sont spécialisés dessus). Précédent Upwork : +23 % de bans liés à l'automatisation en 2025. Une extension à scraping ferait courir un risque de suspension **aux clients** — inacceptable.
+
+**Acquisition/monétisation.** Chrome Web Store organique mais saturé (~75 % des extensions <1 000 utilisateurs) ; benchmarks indés : 0 € pendant 3-6 mois puis 100-500 $/mois entre 6 et 12 mois. Time-to-first-euro : mauvais.
+
+**3 risques majeurs.** (1) CGU/blocage plateforme ; (2) marché atteignable minuscule, monétisation lente ; (3) dépendance à un algorithme mouvant + concurrents gratuits installés.
+
+**Verdict.** Side-project à 100-300 €/mois au mieux, pas un business. Si lancé un jour : audit read-only + calculateur TJM/URSSAF en one-shot 19-29 €.
+
 ### Idée B — Boilerplate Next.js « SaaS à la française » — **4,5/10**
 
 **Concurrence.** ShipFast (Marc Lou) domine : ~129-199 $, 8 382 clients revendiqués (shipfa.st), 250 K$ en 5 mois au lancement 2023 — mais en fort déclin (~8,8 K$/mois en fév. 2026 vs 17,2 K$ en janv., source indieai.directory) : marché générique en fin de cycle. Autres : Makerkit 299-599 $, supastarter 349-1 499 $, + gratuits sérieux (ixartz/SaaS-Boilerplate, ShipFree — clone open source de ShipFast avec locale FR). **Aucun boilerplate spécifiquement français n'existe** (seul saasboilerplate.fr, simple annuaire) — créneau vide, mais vide possiblement parce que trop petit.
@@ -103,3 +117,42 @@ Objectif : trouver UNE idée maximisant **(revenu rapide × faible effort × fai
 **3 risques majeurs.** (1) Marché adressable minuscule (centaines d'acheteurs potentiels) ; (2) dépendance à une audience inexistante ; (3) obsolescence + concurrence gratuite (ShipFree, IA générative) pour un one-shot.
 
 **Angle recommandé si retenue.** Ne pas vendre un boilerplate de plus mais un **module « conformité France clé en main »** (pages légales, factures 293 B, RGPD, facturation électronique 2026-2027) à 49-79 €, compatible ShipFast/Makerkit — le boilerplate complet en upsell.
+
+## 5. Tableau comparatif final
+
+Pondération (dans l'ordre) : ① time-to-first-euro court ② acquisition organique sans pub ③ faisabilité (stack, statut AE, 5-10 h/sem, ≤100 €) ④ marge.
+
+| Idée | ① Time-to-1er-€ | ② Acquisition organique | ③ Faisabilité | ④ Marge | **Note** |
+|---|---|---|---|---|---|
+| **C. Maintenance productisée (hybride WP + custom)** | ✅ 2-4 sem. (base clients studio) | 🟠 SEO saturé mais canal direct fort + SEO local | ✅ Parfaite (stack, ~0 € d'outils) | ✅ 60-150 €/h une fois outillé, récurrent | **7,5/10** |
+| D. Gestion fiche Google TPE | 🟠 4-8 sem. (one-shot d'entrée) | 🔴 TPE sur-sollicitées, démarchage encadré | 🟠 OK si ≤10 clients templatisés | 🟠 Plancher de prix, churn | **6/10** |
+| A. Audit accessibilité RGAA | 🟠 4-8 sem. (outreach) | 🔴 SEO squatté, marché à évangéliser | 🟠 OK mais audit sérieux sous-facturé | 🟠 Déficitaire à petit prix | **5,5/10** |
+| B. Boilerplate SaaS FR | 🔴 4-8 sem. de dev + ventes incertaines | 🔴 Exige une audience X inexistante | ✅ OK | ✅ ~95 % mais volume plafonné | **4,5/10** |
+| E. Extension Chrome Malt | 🔴 3-6 mois | 🟠 Store saturé, TAM minuscule | ✅ OK | 🔴 100-300 €/mois au mieux | **4,5/10** |
+
+## 6. DÉCISION — Idée retenue : C. Maintenance de sites productisée
+
+**Pourquoi C gagne** :
+1. **Time-to-first-euro imbattable** : la base clients du studio web existant est le canal n°1 documenté du secteur (conversion maximale à la livraison d'un site) → premier abonnement facturable en 2-4 semaines, voire moins. Aucune autre idée n'a de canal chaud existant.
+2. **Preuve de marché massive** : des dizaines d'acteurs FR en vivent (WP Assistance 5/5 Trustpilot, SERP saturée d'agences qui investissent en SEO), fourchettes de prix publiques et solides (29-300 €/mois).
+3. **Angle différenciant validé par le vide concurrentiel** : AUCUNE offre productisée française trouvée pour les sites custom (Next.js, React, Webflow, sites générés par IA) — segment aligné exactement sur la stack du porteur, sans concurrence low-cost possible (les usines WordPress ne savent pas le faire).
+4. **Synergie parfaite, pas de duplication** : le studio vend la création, la nouvelle activité vend la tranquillité récurrente derrière — deux offres distinctes qui s'alimentent.
+5. **Revenu récurrent** (MRR) avec churn <10 %/an documenté — la seule idée du top 5 qui construit un actif prévisible dans l'enveloppe 5-10 h/sem.
+6. **Budget** : ~0-15 € de coûts mois 1 (monitoring auto-hébergé sur le VPS existant, scripts maison) — très en dessous des 100 €.
+
+**Garde-fous intégrés au design de l'offre** (issus des risques identifiés) : quota de retouches strict (pas d'« illimité »), cap support 1 h/mois, positionnement sur la réactivité humaine + le custom (pas sur la technique commoditisée), sans engagement (« anti-agence »).
+
+## 7. Plans de secours (pivot rapide au réveil)
+
+### N°2 — Idée D : Gestion fiche Google Business Profile (6/10)
+- **Concurrence/prix** : cf. §4 — se placer à 79-99 €/mois sans engagement, sous Komunike (149,90 €) et au niveau de La Web Factory (95 €).
+- **Angle** : « l'anti-Solocal » (sans engagement, résiliation 1 clic) + porte d'entrée = audit de fiche automatisé gratuit (scriptable en Python : scan de fiches incomplètes/mal notées d'une ville) + forfait « sauvetage de fiche suspendue » one-shot 150-300 €.
+- **Plan de construction résumé** (1 week-end) : ① script Python d'audit de fiche (scraping léger Google Maps public + rapport PDF) ; ② landing one-page + pricing 2 plans + légal (réutiliser les pages légales livrées cette nuit) ; ③ séquence email B2B opt-out (légale) sur une verticale unique (ex. restaurateurs d'une ville) ; ④ délégation « manager » GBP (pas d'API au début). Premier € : one-shot d'optimisation à 150-300 €.
+- **Vigilance** : charge 4-8 h/mois/client si non templatisé ; plafonner à 10 clients tant que non automatisé.
+
+### N°3 — Idée A : Audit accessibilité RGAA/EAA (5,5/10)
+- **Concurrence/prix** : cf. §4 — plancher marché sérieux à 1 490 € HT (Sisméo) ; ne PAS vendre d'« audit complet » à 290-590 € (déficitaire).
+- **Angle** : pack « livrable légal minimal » ~590 € (déclaration d'accessibilité + schéma pluriannuel + pré-audit flash 25 critères, positionné anti-overlay) vendu en **marque blanche aux agences web** (B2B2B — réutilise le réseau du studio), upsell audit complet 1 500 €+.
+- **Plan de construction résumé** (1 week-end) : ① pipeline scan axe-core (Python/Node, tourne sur le VPS) + template de rapport ; ② landing + page « êtes-vous concerné ? » (quiz seuils 10 salariés/2 M€) ; ③ kit marque blanche PDF pour agences ; ④ outreach LinkedIn agences web. Premier € : 4-8 semaines.
+- **Vigilance** : cible = PME 10-250 salariés et agences, PAS les TPE (exemptées) ; suivre la jurisprudence (Caen vs Lille) comme argument commercial.
+
