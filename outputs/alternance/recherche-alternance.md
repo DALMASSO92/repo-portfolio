@@ -205,7 +205,7 @@ Pondération : ① time-to-first-euro court ② acquisition organique sans pub �
 
 **Trois garde-fous non négociables, intégrés dès la conception :**
 - ⚖️ **Aucune mise en relation, aucune liste d'entreprises vendue comme un carnet d'adresses** (art. L5321-3 : 6 mois d'emprisonnement, 3 750 € d'amende). On vend **exclusivement** du conseil, de la méthode et de la formation — ce que L5321-2 autorise explicitement.
-- 🚫 **Aucune promesse de résultat** (28 % des signalements Miviludes visent le coaching). On vend une méthode et un travail, pas un contrat garanti.
+- 🚫 **Aucune promesse de résultat** — le secteur du coaching est surveillé (13 % des signalements Miviludes portent sur formation/emploi/finances, rapport 2022-2024). On vend une méthode et un travail, pas un contrat garanti.
 - 👨‍👩‍👧 **Page de vente pensée pour être montrable aux parents**, puisque ce sont eux qui paient.
 
 **Deux limites à assumer lucidement :**
