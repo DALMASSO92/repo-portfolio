@@ -80,6 +80,122 @@ Un client dont la marge est à 1 % avec moins d'un mois de trésorerie n'achète
 
 **Seul angle de repli mentionné** : inverser le payeur (facturer l'entreprise ou l'étudiant), ou vendre **à la performance** (au contrat signé) pour ne pas peser sur un budget gelé — mais c'est alors une autre idée, qui mérite sa propre étude.
 
+### Idée C — Service B2B aux PME (administratif + aides) — **3/10 — ABANDON RECOMMANDÉ**
+
+**Le gratuit tue l'idée.** Quatre acteurs font déjà ce travail sans frais, et trois y ont un intérêt économique direct :
+- **L'OPCO dépose le contrat lui-même** ; le dépôt est gratuit et les conseillers accompagnent sans surcoût. Certains OPCO offrent une saisie guidée avec contrôle de conformité (myAtlas).
+- **Le CFA peut être mandaté** pour déposer via la passerelle inter-OPCO. Payé au NPEC, il a **tout intérêt** à faire la paperasse gratuitement pour sécuriser l'inscription.
+- **La CCI accompagne gratuitement** les entreprises de moins de 50 salariés (fiche de poste, diffusion, présélection, **et simulation de coût**).
+- **La Bonne Alternance** (beta.gouv.fr) : publication d'offre et mise en relation, gratuit.
+
+**Pire : il n'y a pas de « dossier d'aides » à optimiser.** L'aide est versée automatiquement chaque mois par l'ASP via les données DSN — « aucune démarche spécifique n'est requise ». L'argument commercial central de l'idée n'existe tout simplement pas.
+
+**Et le problème s'érode réglementairement pendant qu'on le construirait** : la loi n° 2026-403 du 26 mai 2026 a supprimé la déclaration préalable de l'employeur d'apprenti (abrogation de L. 6223-1). Trois changements de règles en 18 mois, tous dans le sens de la simplification.
+
+**Complexité réelle : 1 à 3 h de travail**, pas 3 jours — trop peu pour justifier 149-390 €. Le vrai piège du parcours est ailleurs : depuis le décret 2024-631, **le silence de l'OPCO à 20 jours vaut refus implicite** (motifs fréquents : absence de visa CFA, erreurs de rémunération, incohérences de dates).
+
+**Les aides 2026 affaiblissent l'argumentaire sur le segment tech.** Décret n° 2026-168 du 6 mars 2026 : niveaux 6-7 (bac+3 à +5) → **2 000 €** seulement (<250 salariés), 750 € au-delà. Et depuis le 1er juillet 2025, l'employeur doit une **contribution de 750 €** pour un apprenti de niveau 6+. Sur le segment bac+5 que le porteur connaît : **1 250 € nets**. « Je vous décroche les aides » ne tient plus.
+
+**La demande existe mais vise ailleurs.** Centre Inffo (mai 2026), *« Je renonce parfois à recruter un alternant » : le ras-le-bol des PME* — la paperasse « donne le vertige » aux TPE sans RH. Mais les plaintes portent **autant sur le sourcing, la rigidité contractuelle et la maturité des candidats** que sur le CERFA.
+
+**Acquisition très défavorable.** SERP « coût réel alternant » **saturée de simulateurs gratuits** : au moins 3 d'État (URSSAF, Portail de l'Alternance, La Bonne Alternance) et 4 privés. Le simulateur comme aimant à leads est **mort-né**. Et l'unique canal viable — les partenariats CFA — se heurte au fait que **le CFA est le concurrent direct**, puisqu'il fait le montage gratuitement.
+
+**3 risques majeurs.** (1) Concurrence à 0 € structurellement subventionnée ; (2) érosion réglementaire du problème ; (3) marché en contraction (moins de contrats, aides divisées par 2,5 sur le post-bac).
+
+**⚠️ Note de synthèse (recoupement inter-recherches).** Le chercheur C recommande de pivoter et de vendre l'outil **aux CFA** (suivi des dossiers OPCO, alertes avant refus implicite). **La recherche B invalide directement ce repli** : les CFA affichent 1 % de marge, 56 % de déficits attendus en 2026 et moins d'un mois de trésorerie pour un quart d'entre eux. Le problème identifié est réel, l'acheteur ne l'est pas. Ce pivot est donc écarté.
+
+**Angle survivant éventuel** : si le porteur tenait au B2B PME, seul le **sourcing** (trouver le bon alternant) résiste — c'est ce que les PME citent en premier, et ni l'OPCO ni le CERFA ne le résolvent. Mais le sourcing rémunéré touche à l'activité de placement (déclaration préalable si activité principale, art. L5321-1), à cadrer.
+
+### Idée D — Annuaire / site SEO monétisé — **4,5/10**
+
+**Deux signaux d'alerte majeurs, tous deux très récents.**
+
+1. **Google a déployé AI Overviews et AI Mode en France le 22 juillet 2026** — il y a moins de trois semaines. Les études mesurent **−34,5 % à −69 % de CTR** selon la méthodologie, et les perdants désignés sont précisément « les agrégateurs, sites FAQ basiques, blogs qui reformulent ». Une requête comme « salaire alternant 2026 » est le cas d'école de la réponse absorbée par l'IA. **On investirait 12 mois de SEO sur un marché dont personne n'a encore trois mois de recul.**
+2. **Jurisprudence anti-scraping en pleine consolidation** : CA Versailles, 14 avril 2026 — **Jinka condamnée à 200 000 € + 53 000 € de frais, plus 500 € d'astreinte par annonce**, pour extraction automatisée d'annonces leboncoin (droit *sui generis* des bases de données, art. L.342-1 CPI ; après Cass. 2022 leboncoin/Entreparticuliers et Cass. oct. 2025 La Centrale). Le modèle condamné — agrégateur qui aspire les annonces d'un portail — est exactement celui envisagé. **Risque existentiel pour un auto-entrepreneur.**
+
+**Sources de données : la ligne de partage est nette.**
+- ✅ **API Offres d'emploi France Travail** : gratuite, quota 10 appels/s, rediffusion sur sites tiers **autorisée**. MAIS la licence impose d'afficher l'intégralité du contenu fourni, logo compris — ce qui **tue justement la mise en page « comparateur » différenciante** — et interdit revente et constitution de fichiers de candidats.
+- ❌ **API La Bonne Alternance** : gratuite mais **réservée aux usages non lucratifs** ; « toute utilisation à des fins commerciales… est interdite ». Un site monétisé par leads tombe hors cadre. À écarter comme socle.
+- ✅ API Entreprise / INSEE / data.gouv.fr / catalogue des formations.
+- ❌ Scraper Indeed, HelloWork, L'Étudiant (cf. Jinka).
+
+**Concurrence SEO : verrouillée sur les offres, ouverte sur les outils.** C'est le vrai enseignement de la recherche.
+- *« offre alternance informatique »*, *« alternance Lyon »* → HelloWork, Welcome to the Jungle, APEC, LinkedIn, France Travail. **Et l'État lui-même occupe le terrain** avec des pages programmatiques par ville (LBA Lyon affiche « 13 568 offres ») — exactement le produit envisagé, gratuit, avec l'autorité d'un `.gouv.fr`.
+- *« simulateur salaire apprenti 2026 »* → des sites **petits et récents** rankent (clementine.fr, trouverecole.fr, opcodirect.fr, swapn.fr). **Les pages-outils sont accessibles ; les pages-offres ne le sont pas.**
+
+**Monétisation : modèle prouvé, prix inconnu.** Diplomeo (racheté par HelloWork) reconnaît être rémunéré par les écoles partenaires par demande d'information générée, et HelloWork commercialise ouvertement des « leads étudiants qualifiés ». **Mais aucun prix public fiable du lead école/CFA en France** n'a été trouvé — le seul repère est un lead CPF à ~18 € publié par un vendeur de leads, donc juge et partie. **Le revenu par lead est une hypothèse à valider par 3 appels à des CFA, pas un acquis** — sur un marché en recul de 5 % où les CFA fragilisés achètent moins.
+
+**Délai** : 4-12 mois pour un trafic significatif, 12-18 mois pour un domaine neuf. Démarrer en août 2026 = viser la campagne **printemps 2027**, premier euro réaliste dans 8-12 mois.
+
+**3 risques majeurs.** (1) AI Overviews France sans recul mesurable, sur un format explicitement identifié comme perdant ; (2) time-to-first-euro 8-12 mois avec pic saisonnier manqué ; (3) modèle économique non validé sur un marché en repli.
+
+**Angle recommandé si retenue** : abandonner l'agrégation d'offres (verrouillée, juridiquement risquée, licence contraignante) et viser les **outils calculatoires côté employeur** (coût réel d'un alternant, simulateur d'aide post-réforme mars 2026, reste à charge avec la contribution de 750 € pour les niveaux 6-7). Trois raisons : la SERP « simulateur » est démontrée accessible aux petits sites ; zéro dépendance aux API sous licence et zéro scraping ; et un outil calculatoire résiste mieux aux AI Overviews qu'un article que l'IA récite sans clic.
+
+**Recommandation nette du chercheur** : n'en faire un projet principal que si le revenu court terme n'est pas un besoin. C'est un **actif de fond**, à monter en parallèle d'une activité qui paie plus vite.
+
+### Idée E — Micro-outil de suivi de candidatures — **4/10**
+
+**Le signal le plus lourd : le seul acteur français exactement sur ce créneau est mort.** **Searchii** (stage/alternance/premier emploi, avec offres écoles et entreprises) **a fermé le 31 octobre 2025** en cherchant un repreneur ; son domaine ne résout même plus en DNS (test effectué par le chercheur). Aucun acteur FR payant établi n'existe sur ce créneau — non par oubli, mais parce que celui qui a essayé a échoué. Restent des gratuits : JobRadar.fr (100 % gratuit, sans pub, branché sur l'API France Travail) et Apply Flow.
+
+**Le gratuit occupe déjà les trois briques du produit.** **Simplify** : 500 000+ utilisateurs Chrome, 4,9/5 sur ~3 700 avis, autofill de 100+ ATS **plus tracker intégré, gratuit et illimité**. **Teal** : tracking gratuit illimité. **Huntr** : gratuit jusqu'à 100 offres. Les lettres de motivation sont devenues une commodité gratuite. Et sur les templates Notion FR de suivi, le signal est éloquent : un « KIT RECHERCHE D'EMPLOI – ALTERNANCE » référencé à 22 € est aujourd'hui affiché **« GRATUIT »** sur Gumroad — un vendeur qui passe de 22 € à 0 € raconte à lui seul l'élasticité-prix de cette cible.
+
+**Capacité de payer structurellement faible** : les étudiants français vivent avec **628 €/mois en moyenne** pour un besoin estimé à 1 218 €, le logement absorbant ~50 % du budget. Un abonnement à 3-9 €/mois entre en concurrence directe avec Spotify sur un reste-à-vivre de quelques dizaines d'euros.
+
+**⭐ LE POINT LE PLUS IMPORTANT DE TOUTE LA RECHERCHE — la douleur n'est PAS l'organisation.** Les mêmes preuves que pour l'idée A (Apec : 67 % en difficulté ; Kelly 944 candidatures / 3 entretiens / 0 contrat ; Théo 500+ envois ; Charlotte 600 e-mails) disent que l'angoisse vient de **l'accumulation de réponses négatives**, pas du désordre d'un tableur. **Un tracker n'aurait rien changé pour Kelly.** Formule du chercheur, qui mérite d'être retenue : *« On ne paie pas pour un tableur, on paie pour un contrat. »* Contexte aggravant : **−32 % d'offres d'alternance sur Indeed en un an**.
+
+**Risque plateforme rédhibitoire si automatisation.** LinkedIn interdit explicitement « tout logiciel tiers, y compris crawlers, bots, plug-ins et **extensions de navigateur** » qui scrapent ou automatisent l'activité, sous peine de bannissement permanent (application durcie 2025-2026, procès contre Proxycurl en janvier 2025). **Faire bannir le compte LinkedIn d'un alternant en pleine recherche serait un dommage irréparable** — et fatal pour un produit vendu à sa propre promo.
+
+**Double peine acquisition/saisonnalité.** Le Chrome Web Store ne fait pas le marketing, et la « dead zone » 50-200 utilisateurs tue la plupart des extensions. Surtout, **le churn est structurel et inversé : le succès du produit provoque la résiliation.** Modèle réaliste : ~3 mois d'abonnement payés par utilisateur puis 9 mois de vide, base à reconstituer intégralement chaque année. À 5 €/mois × 3 mois = **15 € de LTV**, il faudrait ~400 payants/an pour 6 000 €, soit 10 000-20 000 utilisateurs gratuits acquis sans budget.
+
+**3 risques majeurs.** (1) Simplify/Teal offrent gratuitement et sans limite le cœur du produit à 500 k personnes ; (2) churn inversé + saisonnalité = revenus non récurrents à reconstruire chaque année ; (3) précédent Searchii.
+
+**Angle recommandé** : abandonner « organiser » (commoditisé) pour « **trouver l'entreprise qui recrute** », en one-shot 19-29 € au pic — un résultat, pas un tableur. Le chercheur suggère aussi d'inverser le payeur vers les écoles — **mais voir la note de synthèse ci-dessous.**
+
+---
+
+## 3 bis. Recoupements inter-recherches (lecture d'ensemble)
+
+Trois enseignements ne sont visibles qu'en croisant les cinq études :
+
+1. **Deux chercheurs sur cinq (C et E) recommandent indépendamment de « pivoter vers les CFA/écoles ». La recherche B invalide ce repli de façon décisive** : marge à 1 %, 56 % de déficits attendus en 2026, un quart avec moins d'un mois de trésorerie, 17 % en plan social. Le problème identifié est réel ; l'acheteur ne l'est pas. **Toute idée dont le payeur final est un CFA ou une école est écartée**, quelle que soit la qualité du produit.
+2. **La recherche E renforce la recherche A au lieu de la concurrencer.** E démontre, preuves à l'appui, qu'on ne paie pas pour un outil d'organisation mais pour un résultat. C'est précisément la thèse de A : vendre une **méthode qui mène au contrat**, pas un logiciel. Le meilleur produit d'appel de A serait donc gratuit — et E explique pourquoi il ne faut surtout pas essayer de le vendre.
+3. **Le marché entier se contracte, mais asymétriquement.** −5 % de contrats, −7,8 % dans le supérieur, −32 % d'offres sur Indeed, aides divisées par 2,5 sur le post-bac. Cette contraction **appauvrit les acheteurs institutionnels** (CFA, et indirectement les PME) tout en **intensifiant la douleur des étudiants** (plus de candidats par offre). Conclusion : dans ce marché, **le seul côté de la table qui se porte mieux est celui de la détresse individuelle**. C'est là qu'il faut se placer.
+
+## 4. Tableau comparatif final
+
+Pondération : ① time-to-first-euro court ② acquisition organique sans pub ③ faisabilité (5-10 h/sem, 100 €, stack) ④ marge.
+
+| Idée | ① 1er € | ② Acquisition | ③ Faisabilité | ④ Marge | **Note** |
+|---|---|---|---|---|---|
+| **A. Accompagnement B2C étudiants (verticale info)** | ✅ 9/10 — réseau de promo, rien à construire | 🟠 6/10 — SEO de tête verrouillé, mais TikTok/LinkedIn/promo réels | 🟠 5/10 — coût nul, mais le 1-1 ne scale pas | ✅ 8/10 — ~100 % de marge brute | **6,5/10** |
+| D. Site SEO monétisé | 🔴 2/10 — 8-12 mois | 🟠 6/10 — mais AI Overviews change la donne | ✅ 8/10 | 🟠 7/10 — revenu/lead non validé | **4,5/10** |
+| E. Outil de suivi de candidatures | 🟠 6/10 | 🟠 4/10 — CWS saturé de gratuits | ✅ 8/10 | 🔴 2/10 — LTV ~15 €, churn inversé | **4/10** |
+| B. Outil B2B CFA/écoles | 🔴 2/10 — cycle 3-6 mois | 🔴 3/10 | 🔴 2/10 — vente institutionnelle impossible | 🟠 5/10 | **3/10** |
+| C. Service admin B2B PME | 🔴 4/10 | 🔴 2/10 — battu par le gratuit d'État | 🟠 4/10 | 🟠 5/10 | **3/10** |
+
+## 5. DÉCISION — Idée retenue : A, verticalisée sur l'informatique
+
+**« Décrocher son alternance en informatique » — accompagnement méthodologique productisé, ~149 €.**
+
+**Pourquoi elle gagne :**
+1. **Seule idée avec un time-to-first-euro en jours**, pas en mois : rien à construire, et le réseau de promo/école est un canal chaud immédiat. Les quatre autres demandent 3 à 12 mois avant le premier euro.
+2. **Demande massivement documentée** : 67 % des étudiants du supérieur en difficulté (Apec, mars 2025), témoignages à 944 candidatures pour zéro contrat, sujet remonté à l'Assemblée nationale.
+3. **Capacité de payer prouvée par un marché adjacent** : le coaching Parcoursup se vend 300-1 200 €, jusqu'à 1 496 € — et **ce sont les parents qui paient**. À 149 €, on est très en dessous du marché.
+4. **Creux concurrentiel net** : les coachs existants sont généralistes, aucun ne cible l'informatique ; les plateformes (Walt, Wizbii, JobTeaser) font de la mise en relation gratuite, pas de l'accompagnement payant. Elles deviennent des canaux, pas des concurrents.
+5. **L'atout du porteur est ici décisif et non copiable** : il est alternant en informatique, il vient de réussir ce parcours. Aucun coach généraliste ne peut prétendre à cette crédibilité sur les CV pour ATS de dev, le portfolio GitHub et les entretiens techniques.
+6. **La contraction du marché joue en sa faveur**, contrairement à toutes les autres idées : moins d'offres = plus de détresse = plus de demande d'aide.
+
+**Trois garde-fous non négociables, intégrés dès la conception :**
+- ⚖️ **Aucune mise en relation, aucune liste d'entreprises vendue comme un carnet d'adresses** (art. L5321-3 : 6 mois d'emprisonnement, 3 750 € d'amende). On vend **exclusivement** du conseil, de la méthode et de la formation — ce que L5321-2 autorise explicitement.
+- 🚫 **Aucune promesse de résultat** (28 % des signalements Miviludes visent le coaching). On vend une méthode et un travail, pas un contrat garanti.
+- 👨‍👩‍👧 **Page de vente pensée pour être montrable aux parents**, puisque ce sont eux qui paient.
+
+**Deux limites à assumer lucidement :**
+- **Revenu de campagne, pas de MRR.** Concentré mars-septembre, avec une fenêtre de rattrapage août-novembre (le contrat peut être signé jusqu'à ~3 mois après le début de la formation). Décembre-février ≈ zéro.
+- **Plafond de temps.** Le 1-1 plafonne vers 800-2 000 €/mois en haute saison à 5-10 h/sem. D'où la nécessité de **produitiser vite** (audit vidéo asynchrone + templates + une seule visio), ce qui est précisément là où le profil dev crée un avantage durable.
+
+**Séquence recommandée :** attaquer **août-novembre 2026 comme une campagne de sauvetage** (« pas d'entreprise à la rentrée ? il reste trois mois pour signer ») auprès de la promo et du réseau — c'est le revenu immédiat et, surtout, la récolte des premiers témoignages. Puis utiliser le creux de décembre-février pour produitiser et construire l'actif SEO longue traîne, afin d'arriver armé sur la vraie saison **mars-juin 2027**.
+
 ## 3. Le facteur transverse à ne pas oublier : la saisonnalité
 
 L'alternance a un cycle annuel marqué — la recherche de contrat se concentre de mars à septembre, avec un pic avant la rentrée. Nous sommes en **août 2026**, c'est-à-dire à la toute fin de la fenêtre chaude de l'année. Conséquence à intégrer dans la décision : une idée dont le revenu dépend des étudiants en recherche (A, E) arrive après la vague et devra attendre le printemps 2027 pour son premier vrai pic, alors qu'une idée B2B (B, C) ou un actif SEO (D) se construit hors saison et se trouve prête pour ce pic. Ce point pèsera lourd dans le choix final.
