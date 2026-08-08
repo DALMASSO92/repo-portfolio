@@ -11,7 +11,7 @@ Hypothèses fondées uniquement sur `recherche-alternance.md` et `branding-premi
 | Marché en contraction | −5 % de contrats en 2025, −7,8 % dans le supérieur, −32 % d'offres sur Indeed en un an | **Sourcé** |
 | Saisonnalité | ~50 % des offres publiées mai-juillet ; >50 % des entreprises ont choisi à la mi-juin ; 9 % des offres en septembre | **Sourcé** |
 | Fenêtre de rattrapage | Contrat signable jusqu'à ~3 mois après le début du cycle de formation | **Sourcé** (à faire confirmer au cas par cas) |
-| Mix de ventes | 60 % Kit / 30 % Méthode / 10 % Suivi | **Posé** |
+| Mix de ventes | ~75 % Kit / ~22 % Méthode / ~3 % Suivi | **Posé** — aligné sur le mix réellement utilisé dans les scénarios du §3 |
 | Taux de conversion visiteur → acheteur | 1-2 % (fourchette basse du e-commerce d'info-produit sans audience) | **Posé** |
 | Conversion du réseau de promo | 3-8 % des personnes touchées | **Posé** |
 
@@ -22,8 +22,10 @@ Hypothèses fondées uniquement sur `recherche-alternance.md` et `branding-premi
 | Offre | Prix | Temps porteur | Marge horaire effective |
 |---|---|---|---|
 | Le Kit | 49 € | 0 h (produit) | ∞ — c'est le levier |
-| La Méthode | 149 € | ~1 h 15 | ~119 €/h |
-| Le Suivi | 290 € | ~3 h | ~97 €/h |
+| La Méthode | 149 € | ~1 h 15 (audit 30 min + visio 45 min) | ~119 €/h |
+| Le Suivi | 290 € | **~4 h 30** (Méthode 1 h 15 + 3 × 30 min + 10 relectures à ~10 min) | **~64 €/h** |
+
+⚠️ **Correction du 08/08/2026** : le temps du Suivi était initialement estimé à 3 h, ce qui oubliait les 10 relectures écrites prévues par les CGV (art. 8.3, réponse motivée sous 3 jours ouvrés). Le chiffre réel est **~4 h 30**, et la marge horaire tombe de 97 à **64 €/h**. Conséquence directe sur le pilotage : **le Suivi est l'offre la moins rentable à l'heure**, ce qui renforce la règle ci-dessous.
 
 Le Kit est le cœur économique : il ne consomme aucune heure, il se vend hors saison, et il finance le temps passé sur les offres accompagnées. **Le pilotage consiste à maximiser la part du Kit**, pas à vendre plus de Suivi.
 
@@ -31,23 +33,27 @@ Le Kit est le cœur économique : il ne consomme aucune heure, il se vend hors s
 
 Rappel : nous sommes en **août 2026**, à la fin de la fenêtre chaude mais au pic de la détresse. La première vraie saison est **mars-juin 2027**.
 
+⚠️ **Révision du 08/08/2026.** Les volumes d'août-novembre étaient initialement 2 à 4 fois supérieurs aux objectifs du `plan-acquisition.md` (qui table sur 5 à 13 ventes, soit ~500 à ~1 400 € sur la période). Les scénarios ci-dessous sont **réalignés sur le plan**, qui est le document opérationnel détaillé semaine par semaine et fait donc autorité. Le prévisionnel qui suit est en conséquence nettement plus prudent que la première version.
+
 ### Pessimiste — réseau limité, campagne de rattrapage peu suivie
-- **Août-nov. 2026** : 8 Kits + 2 Méthodes = **690 €**.
+- **Août-nov. 2026** : 4 Kits + 1 Méthode = **345 €** (5 ventes = borne basse du plan).
 - **Déc.-févr.** : ~0 € (désert commercial assumé, période de construction).
 - **Mars-juin 2027** : 25 Kits + 6 Méthodes + 1 Suivi = **2 409 €**.
-- **Année 1 ≈ 3 100 €.** Verdict : un revenu d'appoint. Mais le coût est quasi nul et le Kit reste un actif réutilisable.
+- **Année 1 ≈ 2 750 €.** Verdict : un revenu d'appoint. Mais le coût est quasi nul et le Kit reste un actif réutilisable d'une saison à l'autre.
 
 ### Réaliste — réseau de ~150 personnes, plan d'acquisition exécuté
-- **Août-nov. 2026** : 20 Kits + 6 Méthodes + 1 Suivi = **2 164 €**.
-- **Déc.-févr.** : 6 Kits (SEO qui commence à ramener) = **294 €**.
+- **Août-nov. 2026** : 7 Kits + 2 Méthodes = **641 €** (9 ventes, milieu de la fourchette du plan).
+- **Déc.-févr.** : 6 Kits (le SEO commence à ramener) = **294 €**.
 - **Mars-juin 2027** : 60 Kits + 18 Méthodes + 4 Suivis = **6 782 €**.
-- **Année 1 ≈ 9 200 €**, dont l'essentiel concentré sur 6 mois. Charge : voir §4.
+- **Année 1 ≈ 7 700 €**, concentrés sur 6 mois. Charge : voir §4.
 
 ### Optimiste — un contenu qui perce (TikTok/LinkedIn) + relais d'école
-- **Août-nov. 2026** : 45 Kits + 12 Méthodes + 2 Suivis = **4 573 €**.
+- **Août-nov. 2026** : 9 Kits + 3 Méthodes + 1 Suivi = **1 178 €** (13 ventes = borne haute du plan).
 - **Déc.-févr.** : 15 Kits + 2 Méthodes = **1 033 €**.
-- **Mars-juin 2027** : 140 Kits + 35 Méthodes + 8 Suivis = **14 435 €**.
-- **Année 1 ≈ 20 000 €.** Borne haute contrainte par le temps disponible sur les offres accompagnées, pas par la demande.
+- **Mars-juin 2027** : 140 Kits + 35 Méthodes + 8 Suivis = **14 395 €**.
+- **Année 1 ≈ 16 600 €.**
+
+**Contrôle de capacité sur le scénario optimiste (mars-juin)** : 35 Méthodes (44 h) + 8 Suivis (36 h) = 80 h sur 16 semaines, soit **5 h/semaine de livraison seule**. C'est le plafond absolu — au-delà, il faut refuser des clients ou augmenter les prix. Le scénario optimiste n'est donc pas limité par la demande, mais par l'agenda.
 
 **Lecture honnête** : c'est un **revenu de campagne**, pas un MRR. Deux pics par an, un désert hivernal. Le comparer à un abonnement serait une erreur de lecture.
 
@@ -55,9 +61,11 @@ Rappel : nous sommes en **août 2026**, à la fin de la fenêtre chaude mais au 
 
 | Période | Livraison | Acquisition | Admin | Total |
 |---|---|---|---|---|
-| Août-nov. (campagne) | 2-4 h | 2-3 h | 0,5 h | **4,5-7,5 h** ✅ |
-| Déc.-févr. (construction) | 0-1 h | 1 h | 0,5 h | **1,5-2,5 h** ✅ |
-| Mars-juin (haute saison) | 4-6 h | 2 h | 1 h | **7-9 h** ⚠️ tendu mais tenable |
+| Août-nov. (campagne) | 0,5-1,5 h | 2-3 h | 0,5 h | **3-5 h** ✅ |
+| Déc.-févr. (construction) | 0-0,5 h | 2-3 h | 0,5 h | **2,5-4 h** ✅ |
+| Mars-juin (haute saison) | 3-5 h | 2 h | 1 h | **6-8 h** ⚠️ tendu mais tenable |
+
+⚠️ **Révision du 08/08/2026** — deux corrections apportées à ce tableau : la livraison d'août-novembre était sur-provisionnée d'un facteur 3 à 6 (les volumes révisés du §3 ne demandent qu'environ 0,6 h/semaine), et l'acquisition hivernale affichait 1 h/semaine alors que le `plan-acquisition.md` détaille un programme de 2 h 50. Les deux sont alignés ci-dessus sur le plan.
 
 **Le point de tension est mars-juin.** Garde-fous : plafonner Le Suivi à 2-3 places simultanées, refuser explicitement les demandes hors informatique, et privilégier la vente du Kit (zéro heure) plutôt que des offres accompagnées quand l'agenda se remplit. Si le seuil de 10 h est atteint : **augmenter les prix plutôt que le volume**.
 

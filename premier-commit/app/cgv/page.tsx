@@ -578,7 +578,7 @@ export default function Cgv() {
           </p>
           <p>
             <strong>Accès</strong> : le lien de téléchargement est valable{" "}
-            <strong>[30] jours</strong> ; les fichiers téléchargés sont
+            <strong>30 jours</strong> ; les fichiers téléchargés sont
             conservables par le Client sans limitation de durée. Une réémission du
             lien peut être demandée gratuitement une fois, pendant 12 mois à
             compter de la commande.

@@ -151,7 +151,7 @@ Les prix sont **nets, en euros, TVA non applicable (art. 293 B du CGI)**. Ils s'
 
 **Ce qui n'est pas inclus** : aucun échange individuel, aucun audit, aucune visioconférence, aucune relecture, aucune réponse personnalisée. Le Kit est un produit, non un accompagnement.
 
-**Accès** : le lien de téléchargement est valable **[30] jours** ; les fichiers téléchargés sont conservables par le Client sans limitation de durée. Une réémission du lien peut être demandée gratuitement une fois, pendant 12 mois à compter de la commande.
+**Accès** : le lien de téléchargement est valable **30 jours** ; les fichiers téléchargés sont conservables par le Client sans limitation de durée. Une réémission du lien peut être demandée gratuitement une fois, pendant 12 mois à compter de la commande.
 
 ### 8.2 — La Méthode — 149 €
 

@@ -7,7 +7,7 @@
 3. **Le marché est prouvé par un concurrent** : `decrochetonalternance.fr` vend ~247 € avec ~45 K abonnés. Mais il promet « 15 jours », et franceverif comme scamdoc le signalent en fiabilité douteuse. **La place du sérieux vérifiable est vacante.**
 4. **Ton avantage n'est pas copiable** : tu es alternant en informatique. Aucun coach généraliste ne peut parler de CV pour ATS, de portfolio GitHub et d'entretien technique avec ta légitimité.
 5. **Potentiel réaliste** : ~9 200 € sur l'année 1, concentrés sur deux pics. C'est un **revenu de campagne**, pas un abonnement — je préfère l'écrire que le maquiller.
-6. **Prêt** : site (14 pages, buildé et testé), produit complet (7 fichiers, ~25 000 mots), CGV en 28 articles, 3 articles SEO, plan d'acquisition, 6 messages de lancement.
+6. **Prêt** : site (9 pages publiques, buildé et testé), produit complet (7 fichiers, ~25 000 mots), CGV en 28 articles, 3 articles SEO, plan d'acquisition, 6 messages de lancement.
 7. **Tes 3 prochaines actions** : ① adhérer à un médiateur de la consommation (obligatoire **avant** la 1re vente) ; ② remplacer les placeholders et déployer ; ③ envoyer le message à ta promo.
 8. **Budget mois 1 : 35-122 €** — ⚠️ **peut dépasser 100 €** à cause du médiateur, qui n'est pas reportable en B2C. Voir `previsions-premier-commit.md` §5.
 9. **Deux lignes rouges juridiques** à ne jamais franchir : aucune mise en relation avec des entreprises, aucun vocabulaire de « formation ». Détail ci-dessous.
@@ -40,7 +40,16 @@ Ton activité n'est **pas** de la formation professionnelle — vérifié — ma
 
 ### Avant la première vente — obligatoire (~1 h + 25-100 €)
 - [ ] **1. Adhérer à un médiateur de la consommation** (~30 min, 25-100 €/an) — obligation **préalable** (art. L612-1), pas corrective. Exemples à comparer : CM2C, AME Conso, SAS Médiation Solution. Reporter cette étape, c'est vendre en infraction dès le premier client.
-- [ ] **2. Compléter les placeholders** (~20 min) — `grep -rn "\[" premier-commit/app premier-commit/components premier-commit/lib outputs/alternance/legal --include="*.tsx" --include="*.ts" --include="*.md"`. Les jetons : `[PRÉNOM NOM]`, `[SIRET]`, `[ADRESSE]`, `[EMAIL_CONTACT]`, `[TELEPHONE]`, `[ÉCOLE]`, `[MÉDIATEUR — …]`, `[DATE]`, et **surtout `[LIEN_PAIEMENT]`** dans `components/OffreCard.tsx` — sans lui, aucun bouton d'achat ne fonctionne.
+- [ ] **2. Compléter les placeholders** (~30 min) — détection exhaustive : `grep -rn "\[" premier-commit/app premier-commit/components premier-commit/lib outputs/alternance/legal --include="*.tsx" --include="*.ts" --include="*.md"`.
+
+  **Les trois jetons qui cassent le site s'ils sont oubliés :**
+  | Jeton | Où | Conséquence si oublié |
+  |---|---|---|
+  | `[LIEN_PAIEMENT]` | `components/OffreCard.tsx` | Les 6 boutons d'achat renvoient une 404. **Aucune vente possible.** |
+  | `https://premiercommit.example` | `app/layout.tsx`, `app/sitemap.ts`, `app/robots.ts` | Canonicals, Open Graph et sitemap pointent vers un domaine inexistant → site indexé sur une URL morte |
+  | `[PRESTATAIRE_PAIEMENT]`, `[OUTIL_VISIO]`, `[FOURNISSEUR_MESSAGERIE]`, `[OUTIL_HEBERGEMENT_VIDEO]` + 8 cellules `[À COMPLÉTER]` | `app/confidentialite/page.tsx` (tableau des sous-traitants) | **Politique de confidentialité non conforme** (art. 13 RGPD) : ni liste de sous-traitants, ni pays d'hébergement |
+
+  **Les autres jetons** (cosmétiques mais visibles) : `[PRÉNOM NOM]`, `[SIRET]`, `[ADRESSE]`, `[EMAIL_CONTACT]`, `[TELEPHONE]`, `[ÉCOLE]`, `[MÉDIATEUR — NOM/ADRESSE/SITE]`, `[DATE]`, `[VERSION]`.
 - [ ] **3. Relire les blocs « ⚠️ À vérifier avant publication »** des 4 fichiers de `outputs/alternance/legal/` (~30 min).
 
 ### Mise en ligne (~1 h)

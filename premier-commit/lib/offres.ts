@@ -15,7 +15,8 @@ export const offres: Offre[] = [
     cmd: "init",
     prix: "49",
     pitch: "Tout ce qu'il te faut pour reprendre ta recherche par le bon bout.",
-    temps: "Accès immédiat",
+    // Aligné sur les CGV art. 13.1 : mise à disposition sous 24 h ouvrées.
+    temps: "Accès sous 24 h ouvrées",
     features: [
       "Modèles de CV lisibles par les ATS, pour profils tech",
       "Guide du portfolio GitHub qui donne envie",
@@ -30,14 +31,14 @@ export const offres: Offre[] = [
     cmd: "commit",
     prix: "149",
     pitch: "Le Kit, plus un regard extérieur sur ton dossier réel.",
-    temps: "Sous 5 jours ouvrés",
+    // Aligné sur les CGV art. 13.2 : audit livré sous 7 jours ouvrés.
+    temps: "Sous 7 jours ouvrés",
     highlight: true,
     badge: "Le plus choisi",
     features: [
       "Tout Le Kit",
       "Audit vidéo personnalisé (~15 min) de ton CV, ton GitHub et ton LinkedIn",
       "Une visio de 45 min pour construire ton plan d'attaque",
-      "Tes questions par écrit pendant 2 semaines",
     ],
   },
   {
@@ -82,11 +83,11 @@ export const faq: { q: string; a: string }[] = [
   },
   {
     q: "Et si je change d'avis ?",
-    a: "Tu disposes d'un droit de rétractation de 14 jours. Une exception légale s'applique au Kit : comme c'est un contenu numérique auquel tu accèdes immédiatement, tu renonces expressément à ce droit au moment de la commande — c'est indiqué clairement avant le paiement. Pour les offres avec accompagnement, le détail figure dans les CGV.",
+    a: "Tu disposes d'un droit de rétractation de 14 jours, et tu n'es jamais obligé d'y renoncer. Pour Le Kit, tu as le choix au moment de la commande : soit tu demandes l'accès rapide et tu renonces alors expressément à la rétractation (case à cocher, jamais pré-cochée), soit tu ne coches rien et tu reçois le Kit à l'expiration des 14 jours en conservant ton droit intact. Pour les offres avec accompagnement, le détail figure dans les CGV.",
   },
   {
     q: "Et si je décroche mon alternance avant la fin du suivi ?",
-    a: "Tant mieux, c'est le but. Les séances restantes ne sont pas remboursées, mais tu peux les utiliser autrement : préparer ton arrivée, négocier ton rythme, poser tes questions sur le tutorat. Personne ne t'oblige à les consommer.",
+    a: "Tant mieux, c'est le but. Deux possibilités, au choix : tu utilises les séances restantes autrement — préparer ton arrivée, négocier ton rythme, poser tes questions sur le tutorat — ou tu demandes l'arrêt, et les prestations non encore réalisées te sont remboursées au prorata, comme prévu à l'article 15.5 des CGV.",
   },
   {
     q: "Quelle différence avec les méthodes à 250 € qu'on voit passer sur Instagram ?",

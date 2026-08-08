@@ -82,7 +82,7 @@ Conséquence opérationnelle : l'élément « **liste d'entreprises qui recruten
 ### Idée B — Outil B2B pour CFA/écoles — **3/10 — ABANDON RECOMMANDÉ**
 
 **Le marché client est en contraction violente.** C'est le fait qui tue l'idée, et il conditionne toute la réflexion sur l'alternance en 2026 :
-- **846 700 contrats d'apprentissage débutés en 2025, soit −5 %** — première baisse en 11 ans ; l'enseignement supérieur, cœur de cible, chute de **−7,7 %** (Dares).
+- **846 700 contrats d'apprentissage débutés en 2025, soit −5 %** — première baisse en 11 ans ; l'enseignement supérieur, cœur de cible, chute de **−7,8 %** (Dares).
 - **Financement raboté** : décret 2025-174 (22 févr. 2025) → aide à l'embauche ramenée à 5 000 € (<250 salariés) et 2 000 € (≥250). L'enveloppe de l'aide exceptionnelle passe de 268,2 M€ à **33 M€ en 2026 (−88 %)**. France compétences alloue 7,3 Md€ à l'apprentissage, **−1,1 Md€ vs 2025**. Réforme NPEC (avril 2026) : ~60 % des niveaux de prise en charge devraient baisser.
 - **Conséquence comptable** : taux de marge des CFA **divisé par cinq en un an (5 % → 1 %)** (étude Orcom, 50 CFA). Enquête Fnadir (220 CFA) : **41 % déficitaires en 2025, 56 % attendus en 2026 ; 17 % ont ou prévoient un plan social ; 24 % ont moins d'un mois de trésorerie ; 65 % envisagent de réduire l'offre et 58 % de fermer des filières.**
 
