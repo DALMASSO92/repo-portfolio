@@ -61,6 +61,22 @@ Conséquence opérationnelle : l'élément « **liste d'entreprises qui recruten
 
 **Limite de la recherche** : Reddit et les groupes Facebook/LinkedIn n'ont pas été accessibles (proxy réseau). La preuve de douleur est solide côté études et presse ; la preuve conversationnelle reste à valider par le porteur via son réseau de promo — c'est gratuit et rapide.
 
+#### ⚠️ CORRECTION — concurrent direct manqué par la recherche initiale (trouvé le 08/08/2026 lors de la recherche de nom)
+
+**decrochetonalternance.fr** existe et vend exactement cette offre. Éléments relevés :
+- Promesse affichée : « la meilleure méthode pour trouver une alternance », **en moins de 15 jours**.
+- Produit : « Pack Essentiel » ; prix relevé autour de **247 €** selon les périodes.
+- Audience : **~45 K abonnés Instagram**, compte TikTok actif, **14 000 téléchargements et 600+ avis revendiqués**.
+- **Mais réputation fragile** : franceverif classe le site en « fiabilité douteuse » et scamdoc en « indice de confiance faible », en relevant l'**absence d'avis clients vérifiés**.
+
+**Ce que ça change — et c'est plutôt une bonne nouvelle qu'une mauvaise :**
+1. **Le marché est validé par un tiers** : quelqu'un vend ce produit à ~247 € avec une vraie audience. La capacité de payer n'est plus une hypothèse.
+2. **Le prix de 149 € envisagé est confirmé comme prudent** — le marché supporte 247 €.
+3. **La différenciation devient évidente et défendable** : le concurrent est généraliste, promet un résultat daté (« 15 jours »), et souffre d'un déficit de confiance documenté. L'angle gagnant est donc **l'inverse exact** : verticalisation informatique, identité et SIRET affichés, **aucune promesse de résultat**, avis vérifiables, cadrage juridique explicite (pas de mise en relation, art. L5321-3).
+4. **Contrainte de nommage** : toute la famille « Décroche… » est désormais inutilisable — trop proche d'une marque installée à la réputation contestée, on passerait pour une copie.
+
+**Ce concurrent confirme donc la note de 6,5/10 sans la dégrader** : il prouve le marché tout en laissant vacante la seule position réellement solide, celle du sérieux vérifiable.
+
 ### Idée B — Outil B2B pour CFA/écoles — **3/10 — ABANDON RECOMMANDÉ**
 
 **Le marché client est en contraction violente.** C'est le fait qui tue l'idée, et il conditionne toute la réflexion sur l'alternance en 2026 :
