@@ -36,6 +36,9 @@ const prose = [
 
   // ─── Listes ───
   "[&_ul]:list-disc [&_ol]:list-decimal",
+  // Énumérations juridiques en a) b) c) — sélecteur plus spécifique que la
+  // règle décimale ci-dessus, sinon la liste resterait numérotée.
+  "[&_ol.alpha]:list-[lower-alpha]",
   "[&_ul]:pl-5 [&_ol]:pl-5",
   "[&_ul]:space-y-2 [&_ol]:space-y-2",
   "[&_li]:pl-1.5 [&_li]:leading-[1.7]",
