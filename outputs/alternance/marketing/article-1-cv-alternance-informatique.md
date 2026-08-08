@@ -93,9 +93,7 @@ Il ne l'est pas — il est *scolaire*, ce qui n'est pas la même chose, et le re
 
 ### Le lien GitHub : un pari à double tranchant
 
-Mettre son GitHub sur son CV en informatique est presque obligatoire. Mais un dépôt ouvert est un pari : **le recruteur va cliquer**, et il va tomber sur ce que tu y as laissé.
-
-Avant de mettre le lien, vérifie trois points sur les deux ou trois dépôts que tu mets en avant :
+Mettre son GitHub sur son CV en informatique est presque obligatoire. Mais un dépôt ouvert est un pari : **le recruteur va cliquer**. Avant de mettre le lien, vérifie trois points sur les deux ou trois dépôts que tu mets en avant :
 
 - Un **README** existe et explique, en cinq lignes, ce que fait le projet, comment le lancer, et ce que tu as fait toi.
 - Le dépôt **n'est pas** une décharge de fichiers `test-final-v2-vrai.zip`.
@@ -108,8 +106,8 @@ Si tes dépôts ne sont pas prêts, ne mets pas le lien tout de suite. Un lien a
 - **Le CV à deux colonnes avec barre latérale colorée.** Joli à l'œil, souvent illisible pour la machine. Si tu y tiens, refais le test de l'étape 0 : s'il passe, garde-le.
 - **Les barres de compétences** (« Python ★★★☆☆ »). Tes trois étoiles ne veulent rien dire pour le lecteur, et elles ne s'extraient pas en texte. Remplace-les par un contexte : « Python — 2 projets, dont un scraper avec gestion des erreurs ».
 - **La photo, l'âge, l'adresse complète.** Aucune valeur ajoutée sur un CV tech. La ville et la mobilité suffisent, et sont utiles : la contrainte géographique de l'alternance est réelle.
-- **Le même CV envoyé partout.** Réordonner les compétences et adapter trois lignes suffit dans la majorité des cas.
-- **L'oubli du rythme d'alternance.** Écris-le en haut : `Alternance — rythme 3 semaines entreprise / 1 semaine école, à partir de septembre 2026`. Le recruteur a besoin de cette information pour savoir s'il peut te prendre.
+- **Le même CV envoyé partout.** Réordonner les compétences et adapter trois lignes suffit le plus souvent.
+- **L'oubli du rythme d'alternance.** Écris-le en haut : `Alternance — rythme 3 semaines entreprise / 1 semaine école, à partir de septembre 2026`. Le recruteur en a besoin pour savoir s'il peut te prendre.
 
 ## Ce que ce travail ne réglera pas
 

@@ -91,27 +91,19 @@ Un détail qui compte : **la lettre de motivation classique joue un rôle bien m
 
 ## Maillon 5 — Le message et la relance : le maillon le moins coûteux à réparer
 
-**Le test.** Relis les trois premières lignes de ton dernier mail de candidature. Est-ce qu'elles parlent de **l'entreprise** ou est-ce qu'elles parlent de **toi** ?
+**Le test.** Relis les trois premières lignes de ton dernier mail de candidature. Parlent-elles de **l'entreprise** ou de **toi** ?
 
 **Le signe que c'est cassé** : ton mail commence par « Je suis étudiant en… et je recherche une alternance… ». C'est le début de l'écrasante majorité des mails reçus, et le lecteur décroche à la deuxième ligne. Une accroche qui montre que tu as regardé ce que fait l'entreprise — son produit, sa stack technique, une offre passée — te distingue immédiatement, et ça prend cinq minutes.
 
-**Et la relance ?** C'est l'action au meilleur rapport effort/résultat de toute ta recherche, et presque personne ne la fait. Une relance, une seule, **sept à dix jours** après l'envoi, courte, polie, qui rappelle le poste et ajoute un élément nouveau (un projet terminé depuis, une précision sur ta disponibilité). Sans réponse ensuite : tu passes à la suivante et tu n'y repenses plus.
+**Et la relance ?** C'est l'action au meilleur rapport effort/résultat de toute ta recherche, et presque personne ne la fait. Une relance, une seule, **sept à dix jours** après l'envoi, courte, qui rappelle le poste et ajoute un élément nouveau (un projet terminé depuis, une précision sur ta disponibilité). Sans réponse ensuite : tu passes à la suivante.
 
-**Une nuance utile pour ton moral** : l'absence de réponse ne signifie pas un refus. Les délais varient énormément, et beaucoup de petites structures ne répondent jamais aux candidatures non retenues — non par mépris, mais parce que personne n'est chargé de le faire. **Ne lis pas le silence comme un jugement sur ta valeur.** Lis-le comme une absence d'information.
+**Une nuance utile pour ton moral** : l'absence de réponse n'est pas un refus. Les délais varient énormément, et beaucoup de petites structures ne répondent jamais aux candidatures non retenues — non par mépris, mais parce que personne n'est chargé de le faire. **Ne lis pas le silence comme un jugement sur ta valeur**, mais comme une absence d'information.
 
 ## Comment utiliser ce diagnostic sans y passer un mois
 
 L'ordre compte. Les maillons 1 et 2 sont en amont : s'ils sont cassés, améliorer le CV ne produira rien. Beaucoup d'étudiants font l'inverse — ils refont leur CV cinq fois parce que c'est la partie visible — et s'épuisent sans rien changer.
 
-Un déroulé réaliste sur une semaine :
-
-1. **Soir 1** — maillons 1 et 2. Les deux tests sur tes vingt dernières candidatures. Inconfortable, et de loin le plus rentable.
-2. **Soir 2** — maillon 3. Test du copier-coller, test des trente secondes, corrections.
-3. **Soir 3** — maillon 4. Nettoyage de deux dépôts, README écrits.
-4. **Soir 4** — maillon 5. Réécriture de l'accroche, mise en place d'un suivi des relances.
-5. **Ensuite** — **vingt candidatures**, pas deux cents. Vingt bien faites, tracées, avec relance programmée à J+8.
-
-**Puis tu mesures.** Vingt candidatures ciblées et relancées donnent une information exploitable ; deux cents envoyées à l'aveugle n'en donnent aucune, sinon de l'épuisement.
+Un soir par maillon, dans l'ordre, sur une semaine. Puis **vingt candidatures**, pas deux cents : bien faites, tracées, avec relance programmée à J+8. Vingt candidatures ciblées et relancées donnent une information exploitable ; deux cents envoyées à l'aveugle n'en donnent aucune, sinon de l'épuisement.
 
 ## Ce qu'aucune méthode ne peut promettre
 
