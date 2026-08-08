@@ -49,19 +49,19 @@ C'est le maillon le plus souvent cassé, et le plus rarement soupçonné. On pr�
 
 **Le signe que c'est cassé** : moins de quinze « oui » sur les vingt lignes. Tu candidates dans le vide.
 
-Deux pièges spécifiques à l'informatique. D'abord, **les offres d'alternance en tech sont souvent rédigées comme des offres de junior confirmé** — cinq technologies, deux ans d'expérience demandés. Si tu t'auto-élimines à chaque fois, ton volume réel de candidatures pertinentes s'effondre sans que tu t'en rendes compte. Ensuite, **une grande partie du tissu qui recrute des alternants en informatique ne publie pas d'offres** : PME avec un service informatique de trois personnes, agences web, éditeurs locaux. Si tu ne candidates que sur les job boards, tu ne les vois jamais.
+Deux pièges spécifiques à l'informatique. D'abord, **les offres d'alternance en tech sont souvent rédigées comme des offres de junior confirmé** — cinq technologies, deux ans d'expérience demandés. Si tu t'auto-élimines à chaque fois, ton volume réel de candidatures pertinentes s'effondre. Ensuite, **une grande partie du tissu qui recrute des alternants en informatique ne publie pas d'offres** : PME avec un service informatique de trois personnes, agences web, éditeurs locaux. Si tu ne candidates que sur les job boards, tu ne les vois jamais.
 
-**Précision importante** : personne n'a le droit de te faire payer pour te fournir une liste d'entreprises ou te mettre en relation avec elles (art. L5321-3 du Code du travail). Ce dont tu as besoin, c'est d'**une méthode pour construire ta propre liste** — un travail que tu peux faire seul.
+**Précision importante** : personne n'a le droit de te faire payer pour te fournir une liste d'entreprises ou te mettre en relation avec elles (art. L5321-3 du Code du travail). Ce dont tu as besoin, c'est d'**une méthode pour construire ta propre liste**.
 
 ## Maillon 2 — Le canal : est-ce que ton message arrive à quelqu'un ?
 
-**Le test.** Sur tes vingt dernières candidatures, combien sont parties vers une **personne identifiée** (un prénom, un nom, une fonction) plutôt que vers `contact@`, `recrutement@` ou un formulaire ?
+**Le test.** Sur tes vingt dernières candidatures, combien sont parties vers une **personne identifiée** (prénom, nom, fonction) plutôt que vers `contact@`, `recrutement@` ou un formulaire ?
 
 **Le signe que c'est cassé** : moins de cinq.
 
-Une adresse générique dans une PME arrive souvent dans une boîte que personne ne relève quotidiennement. Un formulaire de job board dépose ta candidature dans une pile. Dans une entreprise de vingt personnes, celui qui décide de prendre un alternant en informatique, c'est le responsable technique, le lead dev ou le dirigeant — quelqu'un dont le nom est très souvent public.
+Une adresse générique dans une PME arrive souvent dans une boîte que personne ne relève. Un formulaire de job board dépose ta candidature dans une pile. Dans une entreprise de vingt personnes, celui qui décide de prendre un alternant en informatique, c'est le responsable technique, le lead dev ou le dirigeant — quelqu'un dont le nom est très souvent public.
 
-En informatique, tu as même un avantage rare : **beaucoup de tes futurs interlocuteurs sont visibles publiquement**, par leur activité professionnelle en ligne ou leurs contributions techniques. Écrire à la bonne personne change plus de choses que réécrire son CV pour la sixième fois.
+En informatique, tu as un avantage rare : **beaucoup de tes futurs interlocuteurs sont visibles publiquement**, par leur activité professionnelle en ligne ou leurs contributions techniques. Écrire à la bonne personne change plus de choses que réécrire son CV pour la sixième fois.
 
 ## Maillon 3 — Le CV : est-ce qu'il est seulement lisible ?
 
@@ -75,9 +75,9 @@ Le point spécifique tech : les **technologies doivent être écrites en toutes 
 
 ## Maillon 4 — La preuve : est-ce qu'on peut vérifier que tu sais faire ?
 
-C'est le maillon où l'informatique se distingue vraiment des autres secteurs — et celui que les conseils généralistes ignorent complètement.
+C'est le maillon où l'informatique se distingue des autres secteurs — et celui que les conseils généralistes ignorent complètement.
 
-Dans la plupart des domaines, un étudiant sans expérience ne peut rien prouver. **En informatique, si.** Ton code est consultable. Et cette possibilité se retourne contre toi si tu ne t'en sers pas : quand deux CV se ressemblent, celui avec un dépôt propre et documenté gagne.
+Dans la plupart des domaines, un étudiant sans expérience ne peut rien prouver. **En informatique, si** : ton code est consultable. Cette possibilité se retourne contre toi si tu ne t'en sers pas — quand deux CV se ressemblent, celui avec un dépôt propre et documenté gagne.
 
 **Le test.** Ouvre ton profil GitHub en navigation privée, comme le ferait quelqu'un qui ne te connaît pas. Trente secondes, puis réponds :
 
