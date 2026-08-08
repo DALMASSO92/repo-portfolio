@@ -41,6 +41,25 @@
 - Connaître la taille réelle de ta base clients → ajuste les scénarios de `previsions.md`.
 - Test navigateur du site (Playwright exclu par tes exceptions) : le build, le HTML de chaque route et le parcours HTTP ont été testés via serveur local + curl ; un coup d'œil visuel sur 2-3 pages avant mise en ligne reste recommandé.
 
+## Annexe — Outil « Bilan de santé » construit sur Lovable (⚠️ NON VÉRIFIÉ)
+
+Un second chantier a été lancé après la livraison de la nuit : l'outil public de bilan de santé (le générateur de leads prévu par le plan d'acquisition), construit sur Lovable plutôt que dans ce dépôt.
+
+- **Éditeur** : https://lovable.dev/projects/4b639899-7550-4c53-b8fc-3343c7135d6c
+- **Aperçu** : https://id-preview--4b639899-7550-4c53-b8fc-3343c7135d6c.lovable.app
+- Workspace « Benjamin's Lovable » · projet privé, non publié · nom donné par Lovable : « Vigie Web: Audit & Sécurité ».
+
+**Ce code ne vit PAS dans ce dépôt** — il n'est couvert par aucun commit et disparaîtrait avec le projet Lovable. À rapatrier ou à exporter si l'outil est conservé.
+
+**État réel : inconnu.** L'agent Lovable a signalé un premier passage terminé (un commit enregistré), mais l'application n'a jamais pu être ouverte ni relue depuis l'environnement de travail : le MCP Lovable exige une approbation locale, et le domaine `lovable.app` est bloqué par le proxy réseau (curl et WebFetch). Restent donc à vérifier, à la main ou dans une session disposant des accès :
+- l'edge function effectue-t-elle de vraies mesures (disponibilité, HTTPS, en-têtes de sécurité, détection de techno, bases SEO) ou des valeurs simulées ?
+- la base de données a-t-elle été provisionnée (tables analyses + leads) ?
+- l'identité visuelle Garde-Site est-elle respectée (palette encre/écume/orange signal, Fraunces + Inter) ?
+- aucun témoignage, chiffre client ou identité inventés ? aucun cookie ni traceur tiers ?
+- les placeholders `[PRÉNOM NOM]`, `[SIRET]`, `[EMAIL_CONTACT]` sont-ils bien restés littéraux ?
+
+Le brief envoyé à l'agent interdisait explicitement les mesures simulées, les faux témoignages et toute identité inventée — mais **cela n'a pas été contrôlé**. À traiter comme un prototype à auditer, pas comme un livrable.
+
 ## Arborescence livrée
 
 ```
