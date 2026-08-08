@@ -69,7 +69,7 @@ Pour chacune : ce que le recruteur cherche, comment structurer, et le piège. **
 *Piège :* réciter la liste des technos au lieu de raconter un problème.
 
 **9. « Quel a été le bug le plus difficile que vous ayez rencontré ? »**
-*Cherche :* ta méthode de débogage. C'est ce que tu feras 40 % du temps en entreprise.
+*Cherche :* ta méthode de débogage. C'est une part très importante du travail réel en entreprise.
 *Structure :* symptôme → ce que tu croyais → comment tu as cherché (logs, points d'arrêt, isolation, réduction du cas de test) → la vraie cause → ce que tu as appris.
 *Piège :* « j'ai cherché sur Internet et j'ai trouvé ». Utiliser le web est normal ; ce qui est évalué, c'est comment tu as **circonscrit** le problème avant de chercher.
 

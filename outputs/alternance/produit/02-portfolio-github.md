@@ -126,7 +126,7 @@ Une capture d'écran vaut deux paragraphes. Si ton projet a une interface, mets 
 
 > ⚠️ **Contenu d'exemple, entièrement fictif.** Recopie la structure, remplace tout. Les sections marquées *(optionnel)* peuvent sauter si elles ne s'appliquent pas — un README court et vrai vaut mieux qu'un README long et rempli de vide.
 
-```markdown
+````markdown
 # Colocompta — répartition des dépenses en colocation
 
 Application web qui permet à des colocataires d'enregistrer leurs dépenses
@@ -224,7 +224,7 @@ Maintenu ponctuellement — les issues ouvertes correspondent aux évolutions pr
 ## Licence
 
 MIT
-```
+````
 
 **Quatre remarques sur ce modèle :**
 

@@ -140,7 +140,7 @@ Langues avec un niveau honnête (**CECRL** : B2, C1 — pas « anglais courant �
 
 ## 3. Décrire des projets quand tu n'as pas d'expérience pro
 
-C'est le cœur du problème d'un CV d'alternance en informatique, et c'est là que 90 % des CV juniors se ressemblent.
+C'est le cœur du problème d'un CV d'alternance en informatique, et c'est là que l'écrasante majorité des CV juniors se ressemblent.
 
 ### La formule en 4 temps
 

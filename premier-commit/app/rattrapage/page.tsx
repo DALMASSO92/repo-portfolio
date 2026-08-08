@@ -152,12 +152,18 @@ export default function Rattrapage() {
         />
         <div className="mt-8 max-w-2xl space-y-5 leading-relaxed">
           <p className="text-gris">
-            La règle générale : le contrat d&apos;apprentissage peut être conclu{" "}
+            La règle générale est écrite dans le Code du travail{" "}
+            <span className="font-mono text-sm text-indigo">(art. L6222-12-1)</span> :
+            tu peux{" "}
             <strong className="text-nuit">
-              jusqu&apos;à environ trois mois après le début du cycle de formation
+              débuter ton cycle sans employeur, dans la limite de trois mois
             </strong>
-            . Pour une rentrée en septembre, cela ouvre en pratique une fenêtre
-            qui court jusque vers la fin de l&apos;automne.
+            , sous le statut de stagiaire de la formation professionnelle, et
+            signer ton contrat d&apos;apprentissage à tout moment pendant cette
+            période — la durée du contrat étant alors réduite du nombre de mois
+            écoulés. Pour une rentrée en septembre, cela ouvre une fenêtre qui
+            court jusque vers décembre. Ton établissement a par ailleurs
+            l&apos;obligation de t&apos;assister dans cette recherche.
           </p>
           <p className="text-gris">
             Trois précautions, parce que je préfère être utile qu&apos;affirmatif :

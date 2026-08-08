@@ -175,7 +175,7 @@ Trois raisons, dont deux sont arithmétiques.
 
 ### Ce qui la fait échouer
 
-La candidature spontanée a mauvaise réputation parce que 95 % des spontanées sont en réalité des **candidatures de masse déguisées** : « Bonjour, je recherche une alternance en informatique, veuillez trouver ci-joint mon CV. » Ce message ne dit ni pourquoi cette entreprise, ni pour quel poste, ni ce que le candidat apporte. Il est supprimé en trois secondes, et il abîme la réputation du canal pour tous les autres.
+La candidature spontanée a mauvaise réputation parce que la grande majorité des spontanées sont en réalité des **candidatures de masse déguisées** : « Bonjour, je recherche une alternance en informatique, veuillez trouver ci-joint mon CV. » Ce message ne dit ni pourquoi cette entreprise, ni pour quel poste, ni ce que le candidat apporte. Il est supprimé en trois secondes, et il abîme la réputation du canal pour tous les autres.
 
 **Une spontanée ciblée, c'est l'inverse exact :** un poste précis, une raison précise de viser cette entreprise-là, une compétence qui correspond à ce qu'elle fait, et une demande claire. Les modèles sont dans le fichier `04`.
 
