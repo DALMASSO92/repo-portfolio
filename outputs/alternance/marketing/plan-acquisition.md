@@ -343,7 +343,7 @@ Conséquence opérationnelle : **ne jamais produire un contenu généraliste sur
 
 ### 2. La crédibilité vérifiable : sa faiblesse documentée, notre atout structurel
 
-Les sites de vérification classent le concurrent en « fiabilité douteuse » (franceverif) et « indice de confiance faible » (scamdoc), tous deux relevant l'absence d'avis clients vérifiés. Et il promet **une alternance en moins de 15 jours** — une promesse de résultat, dans un secteur où 28 % des signalements Miviludes visent le coaching et le développement personnel.
+Les sites de vérification classent le concurrent en « fiabilité douteuse » (franceverif) et « indice de confiance faible » (scamdoc), tous deux relevant l'absence d'avis clients vérifiés. Et il promet **une alternance en moins de 15 jours** — une promesse de résultat, dans un secteur surveillé : le rapport d'activité 2022-2024 de la Miviludes relève que **13 % des signalements reçus concernaient le champ formation / emploi / finances**, en citant spécifiquement les formations en ligne vendues sous couvert de réussite professionnelle.
 
 Notre réponse n'est pas de le dire. **C'est de faire l'inverse, visiblement :**
 - Identité complète, `[SIRET]`, mentions légales, `[ADRESSE]`, médiateur de la consommation affichés dès la première page.
@@ -473,5 +473,6 @@ Pas le chiffre d'affaires de mars. **La part des ventes de mars-juin 2027 qui ne
 - Statut du jeune entrant en formation avant signature du contrat — [Opco EP](https://www.opcoep.fr/question-formation/se-former-en-alternance/contrat-d-apprentissage/quel-est-le-statut-du-jeune-qui-entre-en-formation-avant-la-signature-du-contrat-d-apprentissage)
 - Cycle de formation débutant sans employeur, précisions — [Centre Inffo](https://www.centre-inffo.fr/site-droit-formation/plan-de-relance-apprentissage-et-cycles-de-formation-debutant-sans-employeur-precisions)
 - Annuaires de serveurs Discord francophones — [Disboard](https://disboard.org/servers/tag/developpement) · [Meilleurs-serveurs](https://meilleurs-serveurs.com/browse/tag/discord/developpement) · [Discordl](https://www.discordl.org/serveurs/developpeur)
+- Miviludes, rapport d'activité 2022-2024 — [miviludes.interieur.gouv.fr](https://www.miviludes.interieur.gouv.fr/rapport-dactivite-2022-2024-de-miviludes)
 
 *Tous les autres chiffres de ce document proviennent de `recherche-alternance.md` et de `branding-premier-commit.md`.*

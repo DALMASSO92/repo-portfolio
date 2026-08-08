@@ -31,7 +31,7 @@ Requêtes testées : *« "pas de réponse" candidature alternance que faire »* 
 
 Tu as envoyé quarante, cent, peut-être trois cents candidatures. Tu n'as presque rien reçu : quelques refus automatiques, et surtout du silence. Tu commences à te demander si le problème vient de toi.
 
-Il faut le dire tout de suite : **le marché est réellement dur.** L'Apec chiffrait en mars 2025 à **67 % la part d'étudiants du supérieur ayant rencontré des difficultés à trouver une entreprise d'accueil**, et la presse a documenté des cas extrêmes — un témoignage recueilli par L'Étudiant fait état de **944 candidatures pour 3 entretiens et 0 contrat**. Le volume de contrats a reculé en 2025 (846 700 contrats d'apprentissage débutés, soit **−5 %**, et **−7,8 % dans le supérieur**). Tu n'imagines pas la difficulté.
+Disons-le tout de suite : **le marché est réellement dur.** L'Apec chiffrait en mars 2025 à **67 % la part d'étudiants du supérieur ayant rencontré des difficultés à trouver une entreprise d'accueil**, et un témoignage recueilli par L'Étudiant fait état de **944 candidatures pour 3 entretiens et 0 contrat**. Le volume de contrats a reculé en 2025 (846 700 contrats d'apprentissage débutés, soit **−5 %**, et **−7,8 % dans le supérieur**). Tu n'imagines pas la difficulté.
 
 Mais ces chiffres disent aussi autre chose : **quelqu'un qui envoie 944 candidatures n'a pas un problème d'effort.** Il a un problème quelque part dans la chaîne, et il le répète 944 fois. Envoyer plus ne corrige rien — ça amplifie.
 
@@ -49,7 +49,7 @@ C'est le maillon le plus souvent cassé, et le plus rarement soupçonné. On pr�
 
 **Le signe que c'est cassé** : moins de quinze « oui » sur les vingt lignes. Tu candidates dans le vide.
 
-Deux pièges spécifiques à l'informatique. D'abord, **les offres d'alternance en tech sont souvent rédigées comme des offres de junior confirmé** — cinq technologies, deux ans d'expérience demandés. Si tu t'auto-élimines à chaque fois, ton volume réel de candidatures pertinentes s'effondre. Ensuite, **une grande partie du tissu qui recrute des alternants en informatique ne publie pas d'offres** : PME avec un service informatique de trois personnes, agences web, éditeurs locaux. Si tu ne candidates que sur les job boards, tu ne les vois jamais.
+Deux pièges spécifiques à l'informatique. D'abord, **les offres d'alternance en tech sont souvent rédigées comme des offres de junior confirmé** — cinq technologies, deux ans d'expérience demandés. Si tu t'auto-élimines à chaque fois, ton volume de candidatures pertinentes s'effondre. Ensuite, **une grande partie du tissu qui recrute des alternants en informatique ne publie pas d'offres** : PME avec un service informatique de trois personnes, agences web, éditeurs locaux. Sur les seuls job boards, tu ne les vois jamais.
 
 **Précision importante** : personne n'a le droit de te faire payer pour te fournir une liste d'entreprises ou te mettre en relation avec elles (art. L5321-3 du Code du travail). Ce dont tu as besoin, c'est d'**une méthode pour construire ta propre liste**.
 

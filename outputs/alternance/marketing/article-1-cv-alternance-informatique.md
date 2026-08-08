@@ -52,9 +52,7 @@ Ce test règle à lui seul une bonne partie des CV « invisibles ».
 
 Un ATS — *Applicant Tracking System* — fait principalement trois choses : il **extrait du texte** de ton fichier, il le **range dans des champs** (formation, expériences, compétences), et il permet au recruteur de **chercher** dans la base.
 
-Ce qu'il ne fait pas, malgré la légende : il ne te note pas sur 100 et il ne jette pas ton CV automatiquement. Dans l'immense majorité des cas, un CV mal lu n'est pas rejeté — **il est mal rangé**, donc il ne remonte pas quand le recruteur cherche « React » ou « alternance BUT informatique », donc il n'est jamais ouvert.
-
-La conséquence est plus rassurante qu'il n'y paraît : **tu ne joues pas contre un algorithme, tu joues contre une recherche par mots-clés.** Ça, ça se prépare.
+Ce qu'il ne fait pas, malgré la légende : il ne te note pas sur 100 et il ne jette pas ton CV automatiquement. Dans l'immense majorité des cas, un CV mal lu n'est pas rejeté — **il est mal rangé**, donc il ne remonte pas quand le recruteur cherche « React » ou « alternance BUT informatique », donc il n'est jamais ouvert. La conséquence est plus rassurante qu'il n'y paraît : **tu ne joues pas contre un algorithme, tu joues contre une recherche par mots-clés.** Ça, ça se prépare.
 
 ### Les mots-clés, sans tomber dans le bourrage
 
@@ -89,7 +87,7 @@ La deuxième version n'invente rien : c'est le **même** projet. La différence 
 
 ### « Mais mon projet est nul »
 
-Il ne l'est pas — il est *scolaire*, ce qui n'est pas la même chose, et le recruteur le sait. Il n'attend pas un produit en production. Il vérifie **trois choses** : que tu sais nommer ce que tu as fait, que tu sais expliquer pourquoi tu l'as fait ainsi, et que tu es capable de finir quelque chose. Un petit projet fini, propre et documenté bat un gros projet abandonné à 60 %. À chaque fois.
+Il ne l'est pas — il est *scolaire*, ce qui n'est pas la même chose, et le recruteur le sait. Il n'attend pas un produit en production. Il vérifie **trois choses** : que tu sais nommer ce que tu as fait, que tu sais expliquer pourquoi tu l'as fait ainsi, et que tu es capable de finir quelque chose. Un petit projet fini, propre et documenté bat un gros projet abandonné à mi-chemin. À chaque fois.
 
 ### Le lien GitHub : un pari à double tranchant
 
@@ -111,9 +109,9 @@ Si tes dépôts ne sont pas prêts, ne mets pas le lien tout de suite. Un lien a
 
 ## Ce que ce travail ne réglera pas
 
-Un CV bien construit **enlève des raisons de t'écarter**. Il ne crée pas de poste et ne compense pas un ciblage à côté de la plaque. Si tu envoies un excellent CV à cent entreprises qui ne recrutent pas d'alternant sur ton profil, il ne se passera rien.
+Un CV bien construit **enlève des raisons de t'écarter**. Il ne crée pas de poste et ne compense pas un ciblage à côté de la plaque : envoie un excellent CV à cent entreprises qui ne recrutent pas d'alternant sur ton profil, il ne se passera rien.
 
-L'Apec chiffrait en mars 2025 à **67 % la part d'étudiants du supérieur ayant rencontré des difficultés à trouver une entreprise d'accueil**. Ce n'est pas une statistique sur ton CV : c'est une statistique sur un marché tendu. Ton CV est **le maillon que tu contrôles entièrement** — raison suffisante pour le traiter sérieusement, et raison suffisante pour ne pas t'arrêter là.
+L'Apec chiffrait en mars 2025 à **67 % la part d'étudiants du supérieur ayant rencontré des difficultés à trouver une entreprise d'accueil**. Ce n'est pas une statistique sur ton CV, c'est une statistique sur un marché tendu. Ton CV est **le maillon que tu contrôles entièrement** — raison suffisante pour le traiter sérieusement, et pour ne pas t'arrêter là.
 
 ## Le récapitulatif, dans l'ordre
 

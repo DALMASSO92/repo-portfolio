@@ -42,17 +42,17 @@ C'est l'**article L6222-12-1 du Code du travail** ([Légifrance](https://www.leg
 
 Trois conséquences concrètes :
 
-- **Tu as le statut de stagiaire de la formation professionnelle** pendant cette période. Ce n'est pas un statut vide : ta protection sociale est prise en charge ([précisions Opco EP](https://www.opcoep.fr/question-formation/se-former-en-alternance/contrat-d-apprentissage/quel-est-le-statut-du-jeune-qui-entre-en-formation-avant-la-signature-du-contrat-d-apprentissage)).
-- **Le CFA t'accompagne dans ta recherche d'employeur** — c'est prévu par le texte, et c'est une obligation que tu peux légitimement leur rappeler.
-- **Tu peux signer à tout moment.** La durée du contrat est alors réduite du nombre de mois écoulés depuis le début du cycle de formation.
+- **Tu as le statut de stagiaire de la formation professionnelle** — ce n'est pas un statut vide : ta protection sociale est prise en charge ([précisions Opco EP](https://www.opcoep.fr/question-formation/se-former-en-alternance/contrat-d-apprentissage/quel-est-le-statut-du-jeune-qui-entre-en-formation-avant-la-signature-du-contrat-d-apprentissage)).
+- **Le CFA t'accompagne dans ta recherche d'employeur** : c'est prévu par le texte, et tu peux légitimement le leur rappeler.
+- **Tu peux signer à tout moment.** La durée du contrat est alors réduite du nombre de mois écoulés depuis le début du cycle.
 
-**La nuance à connaître** : ces trois mois sont la limite du dispositif de l'article L6222-12-1, pas une date après laquelle plus rien n'est possible. Au-delà, le statut de stagiaire de la formation professionnelle ne s'applique plus, et la suite dépend de ton établissement. **C'est exactement la question à poser à ton CFA cette semaine, par écrit**, plutôt que de la découvrir en décembre.
+**La nuance à connaître** : ces trois mois sont la limite du dispositif, pas une date après laquelle plus rien n'est possible. Au-delà, le statut de stagiaire de la formation professionnelle ne s'applique plus, et la suite dépend de ton établissement. **C'est la question à poser à ton CFA cette semaine, par écrit**, plutôt que de la découvrir en décembre.
 
 ### Attention : apprentissage ≠ contrat de professionnalisation
 
-Cette distinction est ignorée par la quasi-totalité des articles sur le sujet, et elle est importante. Le dispositif des trois mois sans employeur décrit ci-dessus relève du **contrat d'apprentissage**. Le **contrat de professionnalisation** est un autre contrat, régi par d'autres articles (L6325-1 et suivants), et il ne prévoit pas le même mécanisme.
+Cette distinction est ignorée par la quasi-totalité des articles sur le sujet. Le dispositif des trois mois sans employeur relève du **contrat d'apprentissage**. Le **contrat de professionnalisation** est un autre contrat, régi par d'autres articles (L6325-1 et suivants), et il ne prévoit pas le même mécanisme.
 
-**Commence donc par vérifier lequel des deux ta formation prévoit.** Beaucoup de formations en informatique acceptent les deux, certaines n'ouvrent qu'à l'un. Cette information conditionne tout le reste.
+**Vérifie donc lequel des deux ta formation prévoit** : beaucoup de formations en informatique acceptent les deux, certaines n'ouvrent qu'à l'un. Cette information conditionne tout le reste.
 
 ## Les trois questions à poser à ton école cette semaine
 
@@ -72,9 +72,7 @@ Le gros de la vague est passé. Mais « 9 % » n'est pas « 0 % », et l'informa
 
 ### 1. Les désistements de rentrée
 
-Chaque septembre, des contrats déjà calés tombent : l'alternant a trouvé mieux ailleurs, a changé de formation, ou n'a pas validé son année. L'entreprise se retrouve avec un poste ouvert, un budget déjà validé et une urgence réelle. **Ce sont les meilleures opportunités de septembre** : presque jamais publiées, pourvues en quelques jours.
-
-Concrètement, recontacte les entreprises auxquelles tu avais candidaté sans suite en juin, en signalant que tu restes disponible. Une candidature de juin peut valoir un contrat en septembre parce que la situation de l'entreprise a changé, pas la tienne.
+Chaque septembre, des contrats déjà calés tombent : l'alternant a trouvé mieux ailleurs, a changé de formation, ou n'a pas validé son année. L'entreprise se retrouve avec un poste ouvert, un budget déjà validé et une urgence réelle. **Ce sont les meilleures opportunités de septembre** : presque jamais publiées, pourvues en quelques jours. Recontacte donc les entreprises auxquelles tu avais candidaté sans suite en juin — une candidature de juin peut valoir un contrat en septembre parce que la situation de l'entreprise a changé, pas la tienne.
 
 ### 2. Les petites structures qui ne publient pas
 
