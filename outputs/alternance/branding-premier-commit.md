@@ -31,9 +31,17 @@ C'est un positionnement de **sérieux vérifiable**. Il est plus lent à constru
 ## ⚖️ Garde-fous juridiques — non négociables, intégrés dès la conception
 
 1. **Aucun placement.** L'article L5321-3 du Code du travail interdit d'exiger une rémunération d'une personne en recherche d'emploi en contrepartie de services de **placement** (6 mois d'emprisonnement, 3 750 € d'amende). Donc : **aucune liste d'entreprises vendue comme un carnet d'adresses, aucune mise en relation, aucune transmission de CV à des entreprises, aucune promesse d'entretien.** On enseigne une méthode de ciblage que l'étudiant applique lui-même. Ce que L5321-2 autorise explicitement — le conseil en insertion professionnelle — est exactement notre périmètre.
-2. **Aucune promesse de résultat.** Ni dans le nom, ni sur le site, ni dans les e-mails, ni en visio. 28 % des signalements Miviludes visent le coaching et le développement personnel : le secteur est surveillé. On s'engage sur un **livrable et un temps de travail**, jamais sur un contrat obtenu.
-3. **Obligations B2C** : droit de rétractation de 14 jours (avec renonciation expresse pour l'accès immédiat au contenu numérique), médiateur de la consommation à désigner avant la première vente à un particulier, mentions légales complètes, RGPD.
-4. **Point à vérifier** : ne pas se présenter comme un organisme de *formation professionnelle* (régime spécifique : déclaration d'activité, etc.). Le vocabulaire retenu est **« accompagnement méthodologique »** et **« conseil »**, pas « formation certifiante ».
+2. **Aucune promesse de résultat.** Ni dans le nom, ni sur le site, ni dans les e-mails, ni en visio. Le secteur du coaching est surveillé (13 % des signalements Miviludes portent sur formation/emploi/finances, rapport 2022-2024). On s'engage sur un **livrable et un temps de travail**, jamais sur un contrat obtenu.
+3. **Obligations B2C** : droit de rétractation de 14 jours (avec renonciation expresse pour l'accès immédiat au contenu numérique), médiateur de la consommation à désigner **avant** la première vente à un particulier, mentions légales complètes, RGPD.
+4. **✅ VÉRIFIÉ — ce n'est PAS de la formation professionnelle**, mais à quatre conditions strictes. L'action de formation (art. L6313-1/L6313-2) suppose un « parcours pédagogique permettant d'atteindre un objectif professionnel » ; l'administration (guides DREETS) refuse l'enregistrement du diagnostic, du conseil, du coaching et de l'accompagnement individuel. Premier Commit vend l'analyse critique de documents produits par le client, pas un parcours.
+   **Les quatre conditions à tenir en permanence :**
+   - refuser **tout** financement CPF, OPCO ou France Travail ;
+   - ne délivrer **aucune** attestation, évaluation des acquis ou certification ;
+   - ne pas présenter le Kit comme un programme à objectifs pédagogiques ;
+   - **bannir le lexique** « formation », « formateur », « stagiaire », « certifiant » de toute communication.
+
+   **Pourquoi c'est vital** : basculer dans le régime de la formation imposerait le contrat des art. L6353-3 à L6353-7 — rétractation de 10 jours par LRAR, **interdiction d'encaisser avant l'expiration de ces 10 jours**, puis 30 % maximum. Cela détruirait le modèle « paiement + accès immédiat ».
+5. **La frontière anti-placement se joue hors des CGV.** Une seule phrase du type « je te mets en relation » sur Instagram, en visio ou dans un e-mail suffit à requalifier. La discipline de langage est aussi importante que le contrat.
 
 ## Offre et pricing
 
