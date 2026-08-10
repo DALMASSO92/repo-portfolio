@@ -1,0 +1,132 @@
+@import "tailwindcss";
+
+/*
+  Cadré — système visuel
+  ----------------------
+  Parti pris : le sujet est juridique et administratif, la cible a 16-25 ans et vit
+  sur TikTok. Un design de cabinet d'avocats la ferait fuir ; un design "startup
+  joyeuse" décrédibiliserait le contenu légal. La tension se résout par un registre
+  éditorial sombre et net : typographie large et contrastée, accent acide, et un
+  motif de repères de cadrage repris du viseur de caméra — qui relie le nom au sujet.
+*/
+
+@theme {
+  --color-ink: #0b0b0c;
+  --color-surface: #131316;
+  --color-surface-haut: #1a1a1f;
+  --color-bord: #26262b;
+  --color-craie: #f5f5f4;
+  --color-brume: #a1a1aa;
+  --color-acide: #d4ff3f;
+  --color-alerte: #ff8a5c;
+
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+
+  --text-affiche: clamp(2.75rem, 7vw, 5.25rem);
+  --text-titre: clamp(1.9rem, 3.6vw, 2.9rem);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-ink);
+  color: var(--color-craie);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Repères de cadrage : quatre équerres autour d'un bloc, comme dans un viseur. */
+.cadre {
+  position: relative;
+}
+
+.cadre::before,
+.cadre::after {
+  content: "";
+  position: absolute;
+  width: 1.15rem;
+  height: 1.15rem;
+  border-color: var(--color-acide);
+  border-style: solid;
+  pointer-events: none;
+}
+
+.cadre::before {
+  top: -1px;
+  left: -1px;
+  border-width: 2px 0 0 2px;
+}
+
+.cadre::after {
+  bottom: -1px;
+  right: -1px;
+  border-width: 0 2px 2px 0;
+}
+
+/* Variante complète : les quatre coins, pour les éléments qu'on veut vraiment cadrer. */
+.cadre-plein > .coin {
+  position: absolute;
+  width: 1.15rem;
+  height: 1.15rem;
+  border-color: var(--color-acide);
+  border-style: solid;
+  pointer-events: none;
+}
+
+.cadre-plein > .coin-hg {
+  top: -1px;
+  left: -1px;
+  border-width: 2px 0 0 2px;
+}
+.cadre-plein > .coin-hd {
+  top: -1px;
+  right: -1px;
+  border-width: 2px 2px 0 0;
+}
+.cadre-plein > .coin-bg {
+  bottom: -1px;
+  left: -1px;
+  border-width: 0 0 2px 2px;
+}
+.cadre-plein > .coin-bd {
+  bottom: -1px;
+  right: -1px;
+  border-width: 0 2px 2px 0;
+}
+
+/* Trame discrète, pour que les grands aplats sombres ne paraissent pas plats. */
+.trame {
+  background-image: radial-gradient(
+    circle at 1px 1px,
+    rgba(245, 245, 244, 0.06) 1px,
+    transparent 0
+  );
+  background-size: 28px 28px;
+}
+
+.lien-souligne {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: color-mix(in srgb, var(--color-acide) 55%, transparent);
+  text-decoration-thickness: 1px;
+}
+
+.lien-souligne:hover {
+  text-decoration-color: var(--color-acide);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

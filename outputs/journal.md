@@ -42,3 +42,12 @@ Format : ✅ étape terminée · 🔄 en cours · ⚠️ blocage/contournement
 
 ## Phase 2 — Construction
 - 🔄 Décision : construction de l'unique piste survivante — l'artefact contractuel de droit français pour jeunes créateurs
+- ✅ Produit choisi : **Cadré** — outils administratifs du créateur français (double sens : vidéo cadrée / partenariat encadré)
+- ✅ Application Next.js 16 + React 19 + Tailwind 4 + jsPDF échafaudée
+- ✅ Identité visuelle : sombre éditorial, accent acide, motif de repères de cadrage repris du viseur de caméra
+- ✅ 8 pages : accueil, simulateur, diagnostic, générateur, guide, mentions légales, CGV, confidentialité
+- ✅ Pages légales rédigées à la main (le sous-agent dédié a échoué sur limite de session)
+- ✅ **Build de production : PASSE** — 8 pages en statique
+- ✅ **Serveur testé** : les 8 routes répondent 200, contenu vérifié
+- ✅ **17 tests métier passent** : simulateur (7), diagnostic (5), documents (3), génération PDF réelle (2) — PDF valide de 2 pages, 11 010 octets
+- ⚠️ 1 vraie erreur trouvée et corrigée pendant les tests : assertion naïve sur l'espace insécable du formatage français des milliers
