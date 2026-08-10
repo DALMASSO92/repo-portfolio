@@ -308,6 +308,61 @@ Pour mémoire, une donnée qui remet les espérances à leur place : **54 % des 
 
 ---
 
-## 4. Pistes de repli documentées
+## 5. Infrastructure de paiement et cadre juridique
 
-> ⏳ À compléter une fois le classement final établi.
+Ce travail vaut pour **n'importe quel** produit numérique retenu, pas seulement pour Cadré.
+
+### Encaisser sans se noyer dans la TVA
+
+Le point décisif pour une franchise en base qui vend à l'international est le **vendeur de référence** : un prestataire qui devient juridiquement le vendeur et porte la TVA à ta place.
+
+| Prestataire | Vendeur de référence | Commission | Verdict |
+|---|---|---|---|
+| **Paddle** | Oui | ~5 % + 0,50 $ | ✅ **Recommandé** — aucun frais fixe |
+| Lemon Squeezy | Oui | ~5 % + 0,50 $ | Équivalent, mais racheté par Stripe : feuille de route incertaine |
+| Gumroad | Oui | ~12,9 % + 0,80 $ | Trop cher — 3,25 € prélevés sur une vente à 19 € |
+| Payhip | **Non** | 5 % | ❌ Ne résout pas le problème : tu restes le vendeur |
+| Stripe seul | Non | 1,5 % + 0,25 € | Le moins cher, mais toute la TVA reste à ta charge |
+
+Sur une vente à 19 €, Paddle prélève environ 1,45 € contre 3,25 € chez Gumroad. À noter : le montant fixe de 0,50 $ pèse lourdement sur les petits prix — il représente déjà ~10,5 % d'une vente à 9 €, ce qui plaide contre les prix planchers.
+
+### Les règles françaises à respecter
+
+- **TVA** : franchise en base, seuil 2026 de **37 500 €** pour les prestations de services (majoré 41 250 €). La réforme du seuil unique à 25 000 € a été **abandonnée** fin 2025. Mention obligatoire : « TVA non applicable, art. 293 B du CGI ».
+- **Ventes B2C dans l'UE** : sous **10 000 €** cumulés par an (art. 259 D du CGI), la taxation reste en France et la franchise s'applique — soit plusieurs centaines de ventes à ce niveau de prix. Un vendeur de référence rend le sujet théorique.
+- **Droit de rétractation** : les 14 jours s'appliquent au contenu numérique. Y renoncer suppose **trois conditions cumulatives** (art. L221-28, 13° du code de la consommation) : accord exprès à l'exécution immédiate, reconnaissance explicite de la perte du droit, et confirmation sur support durable. Concrètement : **deux cases distinctes, non pré-cochées**, reprises dans l'e-mail de confirmation. À défaut, le client peut se rétracter **et ne rien devoir**, même après téléchargement.
+- **Médiation de la consommation** : **obligatoire** (art. L612-1) pour tout vendeur B2C, sans exemption de taille, **avant la première vente**. Fourchette relevée : **30 à 80 €/an**. C'est le seul poste incompressible du budget, et le plus souvent oublié.
+- **RGPD** : en ne déposant **aucun traceur non essentiel**, on se dispense légalement de bandeau cookies. Zéro euro, zéro friction — c'est un choix de conception, pas une négligence.
+- **Mineurs** : clause d'autorisation parentale dans les CGV et case à cocher à l'achat, remboursement commercial en cas de réclamation d'un parent.
+
+---
+
+## 6. Pistes de repli documentées
+
+### Repli n°2 — Outil de candidature spontanée pour l'alternance
+
+**Pourquoi c'est la meilleure alternative** : le fondateur **vit lui-même le problème** (alternance + école). C'est le seul dossier de la nuit où l'adéquation fondateur-problème est directe, avec un accès immédiat au terrain et aux premiers utilisateurs — un avantage que Cadré n'a pas.
+
+**Marché** : plus d'un million d'alternants en France, **846 700 nouveaux contrats** signés en 2024, dont près de 6 sur 10 pour un diplôme bac+2 ou plus. La difficulté s'est accrue : plusieurs dizaines à plusieurs centaines de candidatures par offre.
+
+**L'angle** : environ **70 % des entreprises recruteraient sans publier d'offre**. La candidature spontanée ciblée est donc le vrai levier, et c'est exactement ce que les sites d'offres n'outillent pas. Le produit consisterait à identifier les entreprises correspondant à un profil et à une zone via les données publiques d'entreprises, à générer des candidatures personnalisées et à suivre les relances.
+
+**Concurrence** : les sites d'offres classiques (Indeed, Welcome to the Jungle, La Bonne Alternance) couvrent les offres publiées — donc les 30 % restants. Aucun ne travaille sérieusement le gisement non publié. ⚠️ **Analyse concurrentielle non approfondie** : cette piste n'a pas eu de sous-agent dédié, le quota ayant été épuisé.
+
+**Modèle** : paiement unique de 9 à 19 €, au pic de tension (août-septembre, à quelques semaines de la rentrée, ou janvier-mars pour la campagne suivante). Acquisition organique naturelle : TikTok, serveurs Discord d'écoles, LinkedIn étudiant, bouche-à-oreille en cours.
+
+**Ce qu'il faut vérifier en premier** : la solvabilité. Un étudiant sans contrat est aussi un étudiant sans revenu — mais c'est un moment de tension extrême, et les parents peuvent payer.
+
+### Repli n°3 — Créateurs mineurs et leurs parents · **piste non instruite**
+
+**C'est la seule hypothèse que la recherche n'a pas pu falsifier**, faute de quota. Elle mérite d'être creusée en priorité, pour trois raisons :
+
+1. **La solvabilité change de mains.** Ce sont les parents qui paient, pas l'adolescent — ce qui neutralise d'un coup le problème central du segment, documenté en §3.7.
+2. **Le cadre légal est spécifique.** La France a légiféré sur les enfants influenceurs et le travail des mineurs créateurs, avec des obligations propres (autorisation administrative, consignation des revenus). ⚠️ Références et contenu **non vérifiés** — c'est précisément ce qu'il faut instruire.
+3. **Le contenu gratuit y est probablement plus rare.** Les banques et legaltech produisent du contenu pour les créateurs adultes, moins pour ce cas de figure.
+
+**Première action** : relancer une recherche approfondie sur ce sous-segment avec un quota suffisant. Un seul point à trancher — les parents cherchent-ils activement de l'information sur ce sujet, et existe-t-il déjà une offre payante ?
+
+### Repli n°4 — L'artefact contractuel, vendu à un autre public
+
+Si Cadré échoue par manque de solvabilité du public et non par absence de besoin, le même artefact peut viser un public qui, lui, a un budget : **les petites marques et agences** qui contractualisent avec des créateurs et sont soumises aux mêmes obligations, du côté annonceur. Ticket plus élevé, mais prospection active nécessaire — donc à évaluer contre l'enveloppe de 5 à 10 h/semaine.

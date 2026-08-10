@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Cadré
 
-## Getting Started
+Outils administratifs pour jeunes créateurs de contenu français. Deux outils gratuits
+d'acquisition et un générateur de documents payant, à paiement unique.
 
-First, run the development server:
+## Démarrer
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+cp .env.example .env.local   # renseigne NEXT_PUBLIC_SITE_URL
+npm run dev                  # http://localhost:3000
+npm test                     # 17 vérifications métier
+npm run build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Node 22+. Aucune base de données, aucun service externe à l'exécution : tout est statique
+ou calculé dans le navigateur.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Architecture
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+src/
+  app/
+    page.tsx              Accueil
+    simulateur/           GRATUIT — ce qu'il reste sur un partenariat
+    conformite/           GRATUIT — diagnostic en 6 questions
+    generateur/           PAYANT — contrat + facture en PDF
+    guide/                Contenu de référencement
+    mentions-legales/ cgv/ confidentialite/
+  lib/
+    bareme.ts             ⚠️ Taux sociaux et fiscaux — À VÉRIFIER
+    calc.ts               Calcul du net
+    diagnostic.ts         Règles de conformité
+    documents.ts          Modèles de contrat et de facture
+    pdf.ts                Rendu PDF (jsPDF)
+    acces.ts              Contrôle d'accès — paiement NON branché
+tests/verif.ts            Tests métier
+```
 
-## Learn More
+Chaque page est autonome : pas de composants partagés, pour que l'ajout ou la suppression
+d'une page ne casse rien ailleurs.
 
-To learn more about Next.js, take a look at the following resources:
+## Les trois points à traiter avant la mise en ligne
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. **`src/lib/bareme.ts`** — les taux n'ont pas pu être vérifiés sur une source officielle
+   pendant la construction. Tant que `VERIFIE_LE` vaut `null`, le simulateur affiche un
+   avertissement rouge visible. C'est volontaire : ne le retire pas sans avoir vérifié.
+2. **`src/lib/acces.ts`** — aucun paiement n'est branché. Le générateur expose un bouton
+   « mode démonstration » qui doit disparaître. La vérification du paiement doit se faire
+   **côté serveur** : un déblocage local est contournable.
+3. **Placeholders** — `grep -rn "À_REMPLACER" src` liste tout ce qui reste à renseigner
+   (identité, SIRET, médiateur, dates).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Choix de conception
 
-## Deploy on Vercel
+- **Aucune police externe.** Le réseau de construction bloquait les CDN, et une police
+  distante est de toute façon un point de défaillance et un sujet RGPD. La personnalité
+  visuelle vient de l'échelle typographique et du motif de cadrage, pas d'un fichier.
+- **Aucun traceur.** Sans traceur non essentiel, pas de bandeau cookies à afficher : c'est
+  légal, gratuit, et ça supprime une friction à l'entrée.
+- **Les outils gratuits ne transmettent rien.** Tout est calculé dans le navigateur. C'est
+  un argument de confiance sur un sujet où l'on saisit des montants personnels.
+- **Le paywall est placé au téléchargement, pas à l'aperçu.** L'utilisateur voit le
+  document entier avant de payer. Sur un public méfiant et peu solvable, cacher le produit
+  coûterait plus cher que de le montrer.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Tests
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+`npm test` compile puis exécute 17 vérifications : simulateur (7), règles du diagnostic (5),
+contenu des documents (3), génération PDF réelle (2). Le test PDF vérifie l'en-tête `%PDF`
+et la pagination, pas seulement que le code s'exécute.

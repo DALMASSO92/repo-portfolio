@@ -51,3 +51,22 @@ Format : ✅ étape terminée · 🔄 en cours · ⚠️ blocage/contournement
 - ✅ **Serveur testé** : les 8 routes répondent 200, contenu vérifié
 - ✅ **17 tests métier passent** : simulateur (7), diagnostic (5), documents (3), génération PDF réelle (2) — PDF valide de 2 pages, 11 010 octets
 - ⚠️ 1 vraie erreur trouvée et corrigée pendant les tests : assertion naïve sur l'espace insécable du formatage français des milliers
+
+## Phase 3 — Livrables et auto-vérification
+- ✅ `README-DEMARRAGE.md` : résumé exécutif honnête + checklist de 7 étapes chiffrées en temps et en coût
+- ✅ `previsions.md` : 3 scénarios sourcés (pessimiste 0-50 €, réaliste 50-300 €, optimiste 300-900 € à 3 mois), seuil de rentabilité 2-6 ventes, budget 30-90 €, charge 4-6 h/semaine
+- ✅ `recherche-marche.md` complété : infrastructure paiement (§5) + 3 pistes de repli documentées (§6)
+- ✅ `outputs/cadre/README.md` : documentation projet (le skill `maintain-docs` demandé n'est pas disponible dans cette session — documentation rédigée à la main)
+
+### Auto-vérification finale
+- ✅ Rebuild de zéro après suppression de `.next` et `.test-build` : **build vert**, 8 pages statiques
+- ✅ **17 tests métier repassés** après refactor du module PDF
+- ✅ **ESLint : 0 erreur, 0 avertissement**
+- ✅ Structure des documents vérifiée : sections 0 à 6, aucun doublon de titre
+- ✅ Placeholders inventoriés : 10 types, 26 occurrences, tous marqués `[À_REMPLACER_…]`
+- ✅ Contrôle que le chiffre de sanction douteux (« 7 ans / 300 000 € ») n'apparaît nulle part ailleurs que dans l'avertissement qui l'interdit
+
+### Bilan honnête de la nuit
+- 7 idées instruites, **6 éliminées avec preuves**, 1 construite
+- Le résultat le plus solide n'est pas le produit : c'est la **démonstration documentée que le segment « jeunes créateurs qui paient » est structurellement difficile** (§3.7)
+- **La demande du produit livré n'est PAS prouvée** — protocole de validation à 0 € fourni, à exécuter avant tout investissement
